@@ -1,9 +1,9 @@
 # ArXiv CS Weekly | 计算机科学前沿周刊
 
-[![GitHub Stars](https://img.shields.io/github/stars/user/arxiv-weekly?style=flat-square)](https://github.com/user/arxiv-weekly)
-[![Last Update](https://img.shields.io/badge/last%20update-2026--01--08-blue?style=flat-square)](#)
+[![GitHub Stars](https://img.shields.io/github/stars/2308087369/ArXiv-CS-weekly?style=flat-square)](https://github.com/2308087369/ArXiv-CS-weekly)
+[![Last Update](https://img.shields.io/badge/last%20update-2026--01--14-blue?style=flat-square)](#)
 >
-> 这是一个专注于 arXiv 计算机科学（CS）板块的科研周刊。我们不只是做信息的搬运工，更致力于通过**深度分析**与**趋势总结**，为研究人员、工程师和 AI 爱好者提供高价值的学术洞察，点击”阅读报告“即可在线预览
+> 这是一个专注于 arXiv 计算机科学（CS）板块的科研周刊。通过**深度分析**与**趋势总结**，为研究人员、工程师和 AI 爱好者提供高价值的学术洞察，点击”阅读报告“即可在线预览
 
 ---
 
@@ -12,6 +12,7 @@
 | 期数 | 发布日期 | 核心关键词 | 链接 |
 | :--- | :--- | :--- | :--- |
 | **第一期** | 2026-01-07 | 多模态物理统一、视觉自回归 RL、具身智能 | [阅读报告](./2026/第一期0107.md) |
+| **第二期** | 2026-01-14 | “连续化革命”、Agent控制流和多模态信息流、噪声和恶意攻击 | [阅读报告](./2026/第二期.md) |
 
 ---
 ## 文献推荐-快速阅读（每周一篇）
