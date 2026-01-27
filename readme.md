@@ -1,39 +1,54 @@
-# ArXiv CS Weekly | 计算机科学前沿周刊
+# 📑 ArXiv CS Weekly | 计算机科学前沿周刊
 
-[![GitHub Stars](https://img.shields.io/github/stars/2308087369/ArXiv-CS-weekly?style=flat-square)](https://github.com/2308087369/ArXiv-CS-weekly)
-[![Last Update](https://img.shields.io/badge/last%20update-2026--01--14-blue?style=flat-square)](#)
->
-> 这是一个专注于 arXiv 计算机科学（CS）板块的科研周刊。通过**深度分析**与**趋势总结**，为研究人员、工程师和 AI 爱好者提供高价值的学术洞察，点击”阅读报告“即可在线预览
+<div align="center">
 
----
+[![GitHub Stars](https://img.shields.io/github/stars/2308087369/ArXiv-CS-weekly?style=social)](https://github.com/2308087369/ArXiv-CS-weekly)
+[![Last Update](https://img.shields.io/badge/Update-Weekly-2ea44f?style=flat-square)](https://github.com/2308087369/ArXiv-CS-weekly)
 
-## 📅 目录索引 (2026年)
+**深度分析 · 趋势总结 · 学术洞察**
 
-| 期数 | 发布日期 | 核心关键词 | 链接 |
-| :--- | :--- | :--- | :--- |
-| **第一期** | 2026-01-07 | 多模态物理统一、视觉自回归 RL、具身智能 | [阅读报告](./2026/第一期.md) |
-| **第二期** | 2026-01-14 | “连续化革命”、Agent控制流和多模态信息流、噪声和恶意攻击 | [阅读报告](./2026/第二期.md) |
-| **第三期** | 2026-01-21 | 具身物理、神经符号与计算理性的范式重构 | [阅读报告](./2026/第三期.md) |
+[订阅更新](#) · [提交推荐](https://github.com/2308087369/ArXiv-CS-weekly/issues) · [加入讨论](#)
 
-<ps: 2026-1-23 更新被延期一天，周四被老板压榨满了hh，抱歉>
-
----
-## 文献推荐-快速阅读（每周一篇）
-- **标题**:《The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents》
-- **快速阅读**: [**阅读报告**2601_11421.md](/2026/文献推荐-快速阅读/2601_11421.md)
-- **原文pdf**: [**原文下载**2601_11421.pdf](/Resource/第三期/2601_11421v1.pdf)
-- **摘要**:随着视觉-语言-动作（VLA）模型的爆发式增长，机器人似乎在“抓取-放置”等基础任务上已趋于成熟。然而，该研究指出这更多是一种“评估标准过低”带来的幻觉。为此，团队提出了 **The Great March 100 (GM-100)**，一个包含100项长尾、细节导向（Detail-oriented）任务的基准测试集。它不仅是一套测试题，更试图构建一种“具身智能奥林匹克”的标准化范式，迫使模型从简单的“语义理解”转向深层的“物理推理”。
-、
----
-## 工具推荐-AI阅读-[alphaxiv](https://www.alphaxiv.org/)
-在这里可以找到任意您感兴趣的 arXiv 论文，获取详细的分析报告，
-- -Ask Anything
-- Highlight & Ask
-
-## 🤝 参与贡献
-
-如果您发现任何表述错误或有更好的见解，欢迎提交 Issue 或 Pull Request。让我们一起构建更好的学术社区。
+</div>
 
 ---
 
-© 2026 ArXiv CS Weekly Team. Built for the future of AI.
+> **ArXiv CS Weekly** 致力于为研究人员、工程师和 AI 爱好者提供高价值的学术洞察。我们要做的不仅仅是论文列表的搬运工，而是通过**深度阅读**与**核心观点提炼**，帮助您在信息爆炸的时代快速把握计算机科学（特别是 AI/ML）领域的前沿脉搏。
+
+---
+
+## 本周文献推荐--《LongCat-Flash-Thinking-2601 Technical Report》
+
+[![阅读报告](https://img.shields.io/badge/📖_解析-点击阅读-FF9F43?style=for-the-badge)](/2026/文献推荐-快速阅读/26001_16725.md)
+[![原文下载](https://img.shields.io/badge/📥_PDF-原文下载-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2601.16725)
+
+**摘要**:
+LongCat-Flash-Thinking-2601 是美团 LongCat 团队发布的 **560B 参数**混合专家（MoE）推理模型。该模型通过引入“Heavy Thinking Mode”在推理阶段动态扩展计算深度与广度，在 AIME-25 数学基准测试中达到了 **100%** 的准确率；结合 ZigZag Attention 和 DORA 异步强化学习框架，该模型展现了开源界在“系统2”深度推理能力上的重大突破。
+
+---
+
+## 往期目录 (2026 Archive)
+
+| 期数 | 发布日期 | 核心主题 & 关键词 | 阅读入口 |
+| :---: | :---: | :--- | :---: |
+| **No.003** | 2026-01-23 | **具身物理**、神经符号、计算理性范式重构 | [阅读报告](./2026/第三期.md) |
+| **No.002** | 2026-01-14 | **连续化革命**、Agent控制流、多模态信息流、噪声对抗 | [阅读报告](./2026/第二期.md) |
+| **No.001** | 2026-01-07 | **多模态物理统一**、视觉自回归 RL、具身智能 | [阅读报告](./2026/第一期.md) |
+
+> *Update Notice: 2026-1-23 更新因不可抗力（被老板压榨满了hh）延期一天，感谢理解！*
+
+---
+
+## 工具推荐
+
+### [AlphaXiv](https://www.alphaxiv.org/) - AI 驱动的论文阅读社区
+
+AlphaXiv 是一个革命性的学术阅读平台，它让论文阅读变得互动化：
+*   ✨ **Ask Anything**: 对论文的任何部分提问，获得 AI 的即时解答。
+*   🖍️ **Highlight & Discuss**: 像在 Google Docs 上一样高亮文本，与社区或 AI 进行深度讨论。
+
+---
+
+<div align="center">
+  <p>© 2026 ArXiv CS Weekly Team. Built for the future of AI.</p>
+</div>
