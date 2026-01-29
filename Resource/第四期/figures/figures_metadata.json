@@ -1,0 +1,513 @@
+{
+  "2601.16725v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.16725v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure1.png",
+        "caption_snippet": "Figure 1: Benchmark performance of LongCat-Flash-Thinking-2601."
+      },
+      {
+        "id": "2601.16725v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 4,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure2.png",
+        "caption_snippet": "Figure 2: The comparison of agentic capability (pass@k. “Baseline” represents the model undergoing the old mid- training recipe, while “Enhanced“ represents the model undergoing the agentic-enhanced mid-training recipe."
+      },
+      {
+        "id": "2601.16725v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 5,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure3.png",
+        "caption_snippet": "Figure 3: Automated construction of executable domain graph. Starting from a high-level domain specification, the pipeline synthesizes domain-specific tools, generates corresponding databases schema and tool schema implementations. Building on these we construct a verified tool dependency graph that serves as the foundation for environment scaling."
+      },
+      {
+        "id": "2601.16725v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 6,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure4.png",
+        "caption_snippet": "Figure 4: Verifiability-preserving environment expansion. Environment is progressively expanded from a seed executable tool chain through controlled graph growth."
+      },
+      {
+        "id": "2601.16725v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 9,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure5.png",
+        "caption_snippet": "Figure 5: The Execution Workflow of Our Scalable Asynchronous Agentic RL Framework."
+      },
+      {
+        "id": "2601.16725v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 10,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure6.png",
+        "caption_snippet": "Figure 6: Workflow of Prefill-Decode Disaggregation with KV-cache Swapping. The rollout manager coordinates prefill (P) and decode (D) instances and collects final results from D instances. Upon receiving a new request, P and D perform an initial handshake and launch asynchronous chunked KV-cache transfers. When the device KV-cache usage reaches a given watermark, swapping is triggered and can be executed concurrently across both P and D instances."
+      },
+      {
+        "id": "2601.16725v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 13,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure7.png",
+        "caption_snippet": "Figure 7: Pass@1 accuracy of BrowseComp with different context management strategies."
+      },
+      {
+        "id": "2601.16725v1_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure8.png",
+        "caption_snippet": "Figure 8: Training reward of LongCat-Flash-Thinking-2601 during large-scale multi-environment agentic RL."
+      },
+      {
+        "id": "2601.16725v1_Figure9",
+        "search_term": "Figure Figure9",
+        "page": 15,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure9.png",
+        "caption_snippet": "Figure 9: Agentic benchmark performance of LongCat-Flash-Thinking-2601 during RL training using exclusively synthetic general agentic data."
+      },
+      {
+        "id": "2601.16725v1_Figure10",
+        "search_term": "Figure Figure10",
+        "page": 16,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure10.png",
+        "caption_snippet": "Figure 10: Framework of heavy thinking mode."
+      },
+      {
+        "id": "2601.16725v1_Figure11",
+        "search_term": "Figure Figure11",
+        "page": 17,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure11.png",
+        "caption_snippet": "Figure 11: The context message management for parallel reasoning and heavy thinking."
+      },
+      {
+        "id": "2601.16725v1_Figure12",
+        "search_term": "Figure Figure12",
+        "page": 20,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure12.png",
+        "caption_snippet": "Figure 12: Inference efficiency comparison between LongCat-Flash-Thinking and LongCat-Flash-Thinking-ZigZag with Zigzag Attention. Speedups are measured on production inference clusters."
+      },
+      {
+        "id": "2601.16725v1_Figure13",
+        "search_term": "Figure Figure13",
+        "page": 21,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure13.png",
+        "caption_snippet": "Figure 13: The performance versus relative cost. The percentages attached to arrows indicate the reduced cost when benchmarking the performance on the concerned datasets."
+      },
+      {
+        "id": "2601.16725v1_Figure14",
+        "search_term": "Figure Figure14",
+        "page": 27,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure14.png",
+        "caption_snippet": "Figure 14: Scaling curves of optimal batch size and learning rate. The circles and squares represent MoE-1.8B and MoE-100M models respectively. The dashed lines show the power-law fitting with confidence intervals. The scaling laws are first validated on MoE-3B and MoE-6B models, then extrapolated to predict optimal configurations for MoE-26B."
+      },
+      {
+        "id": "2601.16725v1_Figure15",
+        "search_term": "Figure Figure15",
+        "page": 27,
+        "output_path": "Resource/第四期/figures\\2601.16725v1_Figure15.png",
+        "caption_snippet": "Figure 15: Pass@1 accuracy of BrowseComp with varying summary context token lengths."
+      }
+    ]
+  },
+  "2601.16979v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.16979v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 3,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure2.png",
+        "caption_snippet": "Figure 2 Comparison of different sharpness measures on an illustrative landscape featuring a sharp valley direction and a flat river direction (Wen et al., 2025). Hessian sharpness quantifies the curvature along the sharpest direction of the landscape (the valley). Directional sharpness measures the quadratic curvature along ∆θ, while critical sharpness, its empirical counterpart, quantifies how far one can step along ∆θ before the loss increases."
+      },
+      {
+        "id": "2601.16979v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure1.png",
+        "caption_snippet": "Figure 1: We considered GPT-style Pre-LN Transformers consisting of 12 layers, with an embedding dimension of nembd = 768. The model in total has ∼100M parameters. We train the model on the 10B token subset of FineWebEdu dataset with ∼1M tokens per step using AdamW with constant learning rate and hyperparameters β1 = 0.9 and β2 = 0.95."
+      },
+      {
+        "id": "2601.16979v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure3.png",
+        "caption_snippet": "Figure 3: We considered Fully Connected Networks (FCNs) consisting of four layers, with width 512 and GeLU activation function. The models were trained on the CIFAR-10 image classification task using SGD with a constant learning rate of η =3e-02. We experimented with three different batch sizes: B ∈[500, 5000, 50000], with a batch size of 50, 000 corresponds to full-batch gradient descent."
+      },
+      {
+        "id": "2601.16979v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure4.png",
+        "caption_snippet": "Figure 4: We considered GPT-style Pre-LN Transformers consisting of 12 layers, with an embedding dimension of nembd = 768. The model in total has ∼100M parameters. We train the model on the 10B token subset of FineWebEdu dataset with ∼1M tokens per step using AdamW and hyperparameters β1 = 0.9 and β2 = 0.95."
+      },
+      {
+        "id": "2601.16979v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure5.png",
+        "caption_snippet": "Figure 5: We evaluate the publicly available OLMo-2 7B checkpoint at both the pre-training and mid-training stages. For each checkpoint, we estimate the critical learning rate using the AdamW optimizer with a batch size of 16 and hyperparameters β1 = 0.9 and β2 = 0.99. Since we do not have access to OLMo’s original optimizer states, we first accumulate Adam’s first and second moments over 100 steps. After this warm-up period, we measure the critical learning rate for the next 100 steps and repor..."
+      },
+      {
+        "id": "2601.16979v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure6.png",
+        "caption_snippet": "Figure 6: We consider the last OLMo-2 7B as our starting point and further train on a mixture composed of DCLM and and the math subset of Dolmino mix (Walsh et al., 2025). In Figure 6(a), we evaluate the relative critical sharpness for several evaluation tasks across DCLM ratios. (b, c) We further train the pre-trained checkpoint on the train mix for 16, 000 steps (1B tokens) using AdamW with a constant learning rate 4, batch size of 16 and hyperparameters β1 = 0.9 and β2 = 0.99."
+      },
+      {
+        "id": "2601.16979v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 15,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure7.png",
+        "caption_snippet": "Figure 7 presents the same results as Figure 4, but directly compares different sharpness values at a fixed learning rate."
+      },
+      {
+        "id": "2601.16979v1_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 15,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure8.png",
+        "caption_snippet": "Figure 8 compares the training trajectories of pre-conditioned sharpness, directional sharpness and critical sharpness for GPT pre-training using AdamW with a fixed learning rate schedule. The pre-conditioned sharpness exhibits continually increases (progressive sharpening) until it reaches the stability threshold and oscillates around it (Edge of Stability). Both directional and critical sharpness also exhibit progressive sharpening and EoS behavior, while oscillating below the EoS threshold. T..."
+      },
+      {
+        "id": "2601.16979v1_Figure9",
+        "search_term": "Figure Figure9",
+        "page": 16,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure9.png",
+        "caption_snippet": "Figure 9 shows the same results as Figure 6(b, c), but shows them as a heatmap with accuracy values."
+      },
+      {
+        "id": "2601.16979v1_Figure10",
+        "search_term": "Figure Figure10",
+        "page": 17,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure10.png",
+        "caption_snippet": "Figure 10 Downstream Performance of OLMo-2 7B checkpoints during pre-training (left column) and mid-training (right column)."
+      },
+      {
+        "id": "2601.16979v1_Figure11",
+        "search_term": "Figure Figure11",
+        "page": 18,
+        "output_path": "Resource/第四期/figures\\2601.16979v1_Figure11.png",
+        "caption_snippet": "Figure 11 Relative critical sharpness for various subsets of the Dolmino mix dataset. The shaded region around the mean trends denotes the variation across batches."
+      }
+    ]
+  },
+  "2601.16982v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.16982v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure1.png",
+        "caption_snippet": "Figure 1. Enabling consistent extreme monocular dynamic view synthesis: We introduce AnyView, a diffusion framework that can generate videos of dynamic scenes from any chosen perspective, conditioned on a single input video. Our model operates end-to-end, without explicit scene reconstruction or expensive test-time optimization techniques. Existing methods tend to fail to extrapolate, largely copying the input view. More recent baselines can recover the overall structure in some cases (1st, 2nd ..."
+      },
+      {
+        "id": "2601.16982v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 3,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure2.png",
+        "caption_snippet": "Figure 2. The AnyView architecture. For both the clean input and noisy target videos, we concatenate pixels (RGB values) and camera information (Pl¨ucker vectors) belonging to the same viewpoint along the channel dimension, after independently encoding each modality into latent embeddings. We then stack these two multimodal videos along the sequence dimension, for a total of 2 · t · h · w tokens, which are fed into the diffusion transformer to iteratively denoise the target video."
+      },
+      {
+        "id": "2601.16982v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 4,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure3.png",
+        "caption_snippet": "Figure 3. Overview of our training data mixture. We train and evaluate AnyView on both single-view and multi-view videos from four domains: 3D, Driving, Robotics, and Other (see Section 3.3). During training, we perform weighted sampling to ensure each domain is seen equally often, i.e. comprises 25% of the batch."
+      },
+      {
+        "id": "2601.16982v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 6,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure4.png",
+        "caption_snippet": "Figure 4. AnyView in-domain DVS results on Kubric-4D (left) and Pardom-4D (right). We show the first and last frame of each video. The scene layout is generally preserved very well, despite drastic viewpoint changes and/or heavy occlusion from the input vantage point."
+      },
+      {
+        "id": "2601.16982v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 6,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure5.png",
+        "caption_snippet": "Figure 5. Results on DyCheck iPhone (0-shot narrow DVS). While these scenes are not highly dynamic, they do contain subtle, intricate motions and hand-object interactions."
+      },
+      {
+        "id": "2601.16982v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 7,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure6.png",
+        "caption_snippet": "Figure 6. AnyView extreme DVS results on driving (left) and robotics (right) benchmarks. We show both in-domain and zero-shot results. For driving videos, we focus on the three frontal cameras, whereas for robotics, we focus on all scene cameras."
+      },
+      {
+        "id": "2601.16982v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 7,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure7.png",
+        "caption_snippet": "Figure 7. AnyView extreme DVS results on Ego-Exo4D. We show both in-domain and zero-shot results. Note that in the zero- shot case, the background often has to be “guessed” from the other camera viewpoint, but the inpainted regions (see e.g. basketball, soccer) integrate harmoniously with the rest of the scene."
+      },
+      {
+        "id": "2601.16982v1_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 8,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure8.png",
+        "caption_snippet": "Figure 8. Examples of advanced reasoning within AnyView, as a way to indirectly guide generation in unobserved parts of the scene."
+      },
+      {
+        "id": "2601.16982v1_Figure9",
+        "search_term": "Figure Figure9",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure9.png",
+        "caption_snippet": "Figure 9. Uncertainty analysis. In (a), the model cannot see what is contained inside the black bin because the contents are occluded, and resorts to predicting fruit (since those objects are common in LBM), in addition to spawning spurious objects out-of-frame on the left. In (b), we mainly observe variations of object positions along the input viewing direction (overlayed with pink arrows for clarity), which presumably stems primarily from uncertainty in terms of implicit depth estimation that..."
+      },
+      {
+        "id": "2601.16982v1_Figure10",
+        "search_term": "Figure Figure10",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure10.png",
+        "caption_snippet": "Figure 10. Gradually increasing target azimuth. As we increase the difficulty of the task by rotating the virtual camera over larger and larger angles away from the observed camera in this Kubric scene, GCD [50] produces garbled outputs where objects become essentially unrecognizable. In contrast, AnyView maintains clear spatiotemporal correspondence across dramatic viewpoint changes, demonstrating significantly enhanced 4D understanding over previous methods."
+      },
+      {
+        "id": "2601.16982v1_Figure11",
+        "search_term": "Figure Figure11",
+        "page": 15,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure11.png",
+        "caption_snippet": "Figure 11. Upward view synthesis on real-world driving scenarios. We compare AnyView with GCD [50] on DDAD [17], which is a zero-shot dataset for both methods. AnyView generates much clearer predictions: almost every car that the model can see is reconstructed with high fidelity and accurate dynamics, whereas GCD often suffers from blurry artefacts, which worsen the further away one looks from the ego vehicle."
+      },
+      {
+        "id": "2601.16982v1_Figure12",
+        "search_term": "Figure Figure12",
+        "page": 16,
+        "output_path": "Resource/第四期/figures\\2601.16982v1_Figure12.png",
+        "caption_snippet": "Figure 12. Diversity of camera trajectories. Samples of dataset camera trajectories illustrating the diversity of motion patterns used in our evaluation."
+      }
+    ]
+  },
+  "2601.19847v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.19847v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure1.png",
+        "caption_snippet": "Figure 1: An example of activation steering correcting an erroneous reasoning trajectory."
+      },
+      {
+        "id": "2601.19847v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 2,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure2.png",
+        "caption_snippet": "Figure 2: Comparison of activations of key neurons under successful and failed reasoning on AIME."
+      },
+      {
+        "id": "2601.19847v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 3,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure3.png",
+        "caption_snippet": "Figure 3 overviews our AdaRAS framework. First, we identify RCNs by contrasting activation pat- terns from correct and incorrect reasoning samples"
+      },
+      {
+        "id": "2601.19847v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 7,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure4.png",
+        "caption_snippet": "Figure 4: Effect of hyperparameter."
+      },
+      {
+        "id": "2601.19847v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 7,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure5.png",
+        "caption_snippet": "Figure 5: Visualization of activation shifts induced by steering. Neurons are sorted by their indices in layer, and unsteered neurons are omitted for clarity."
+      },
+      {
+        "id": "2601.19847v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 8,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure6.png",
+        "caption_snippet": "Figure 6: Feature distribution discrepancy of activations before and after intervention. The x-axis denotes the magnitude feature, and the y-axis denotes the angle feature of activations. Larger values indicate greater deviations in activation space. Detailed definitions are provided in Appendix D."
+      },
+      {
+        "id": "2601.19847v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 16,
+        "output_path": "Resource/第四期/figures\\2601.19847v1_Figure7.png",
+        "caption_snippet": "Figure 7: Projection of reasoning states onto the probing classifier learned space. The clear separation between successful (Blue) and failed (Red) trajectories validates the separability of reasoning correctness in the activa- tion space."
+      }
+    ]
+  },
+  "2601.19895v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.19895v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure1.png",
+        "caption_snippet": "Figure 1 KEEL enables stable, expressive, and deep LLM training. (a) Training Stability: Keel maintains smooth convergence at aggressive learning rates, while Pre-LN exhibits severe instability under the same configuration. (b) Expressiveness: Keel demonstrates superior performance across all capability domains, particularly in Math & Code (+16.5%). (c) Depth Scaling: Keel consistently outperforms Pre-LN across all depths (64-1024 layers). Together, these results demonstrate that Keel’s architec..."
+      },
+      {
+        "id": "2601.19895v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 5,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure2.png",
+        "caption_snippet": "Figure 2 Illustration of our Keel architecture."
+      },
+      {
+        "id": "2601.19895v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 10,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure3.png",
+        "caption_snippet": "Figure 3 The illustration of three distinct pathological behaviors of model divergence in the training of LLMs."
+      },
+      {
+        "id": "2601.19895v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 11,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure4.png",
+        "caption_snippet": "Figure 4 Training loss curves of Pre-LN during the early stage of training. Pre-LN exhibits a pronounced loss spike when trained with a higher learning rate."
+      },
+      {
+        "id": "2601.19895v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 14,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure5.png",
+        "caption_snippet": "Figure 5 Training loss curves of Pre-LN and Keel on FineWeb-EDU dataset [16] with varying training tokens. As the training token scales from 10B to 40B tokens, Keel achieves larger gain on training loss compared to Pre-LN baseline."
+      },
+      {
+        "id": "2601.19895v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 21,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure6.png",
+        "caption_snippet": "Figure 6 Performance degradation caused by the removal of each individual layer in Pre-LN and Keel."
+      },
+      {
+        "id": "2601.19895v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 21,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure7.png",
+        "caption_snippet": "Figure 7 Performance degradation caused by the removal of each individual layer in Qwen2.5-72B-Instruct and LLaMA-3.3-70B-Instruct."
+      },
+      {
+        "id": "2601.19895v1_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 22,
+        "output_path": "Resource/第四期/figures\\2601.19895v1_Figure8.png",
+        "caption_snippet": "Figure 8a shows the training loss curves of shallow and wide (2048 hidden size, 64 layers) and deep and narrow (1024 hidden size, 256 layers) Pre-LN models. Both models were trained on the same 250 billion tokens. While the shallow and wide Pre-LN model exhibits a significantly lower training loss, as shown in Table 5, it performs slightly worse than the deep and narrow model on downstream tasks."
+      }
+    ]
+  },
+  "2601.19897v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.19897v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure1.png",
+        "caption_snippet": "Figure 1: Supervised Fine-Tuning (SFT) is commonly used to learn from expert demonstration datasets, but its off-policy nature leads to catastrophic for- getting of general capabilities. We introduce Self- Distillation Fine-Tuning (SDFT), which turns expert demonstrations into on-policy learning signals by us- ing a demonstration-conditioned version of the model as its own teacher. In this way, SDFT enables true con- tinual learning with the model improving on new tasks as they arise without reg..."
+      },
+      {
+        "id": "2601.19897v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 2,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure2.png",
+        "caption_snippet": "Figure 2: (Left) SDFT leverages a model’s in-context learning ability to generate on-policy training signals. For each query x, the model acts in two roles. A student that is conditioned only on the query P = π(·|x) and the teacher, which is the same model conditioned on an expert demonstration c, producing a demonstration- aware distribution Q = π(·|x, c). Training minimizes the reverse KL divergence between the student and teacher, yielding on-policy updates. (Right) Conditioning the model on ..."
+      },
+      {
+        "id": "2601.19897v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 5,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure3.png",
+        "caption_snippet": "Figure 3: In a challenging continual learning experiment, where one model is trained sequentially on three different tasks, SDFT is able to learn each one while retaining performance on the others. In contrast, SFT performance on each task drops once it starts learning the next one. Performance is linearly normalized such that 0 corresponds to the base model accuracy on each one of the tasks, and 1 to the maximum accuracy obtained across both algorithms."
+      },
+      {
+        "id": "2601.19897v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 7,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure4.png",
+        "caption_snippet": "Figure 4: Performance trade-offs between new task accuracy and retention of prior capabilities. Each point represents a trained model, with the top-right indicating ideal performance (high accuracy on both new and previous tasks). SDFT consistently achieves superior Pareto efficiency compared to baselines across all three skill learning tasks."
+      },
+      {
+        "id": "2601.19897v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 9,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure5.png",
+        "caption_snippet": "Figure 5 (left) illustrates a clear trend. At small scales, such as the 3B variant, the model’s in-context learning is too weak to provide meaningful teacher guidance, and performance lags behind standard SFT. However, as we increase the size, the gains from our method grow consistently. The 7B model achieves a four-point improvement over SFT, and the 14B model widens the margin to seven points. This monotonic improvement suggests that the effectiveness of our algorithm is tightly coupled to the..."
+      },
+      {
+        "id": "2601.19897v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 10,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure6.png",
+        "caption_snippet": "Figure 6: On-policy learning is essential for perfor- mance gains. While offline distillation from the im- proves over standard SFT, it consistently underper- forms on-policy SDFT, demonstrating that the benefits cannot be attributed solely to teacher quality."
+      },
+      {
+        "id": "2601.19897v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 16,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure7.png",
+        "caption_snippet": "Figure 7: Conditioning the teacher on both article text and answer (89% strict accuracy) substantially out- performs text-only conditioning (75%), showing that the full demonstration context is critical for effective knowledge transfer."
+      },
+      {
+        "id": "2601.19897v1_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 17,
+        "output_path": "Resource/第四期/figures\\2601.19897v1_Figure8.png",
+        "caption_snippet": "Figure 8: EMA teacher provides stable and effective training. Using the frozen base model, which fails to track learning progress lead to inferior results. Using the current student directly as the teacher leads to training instabilities."
+      }
+    ]
+  },
+  "2601.17066v1": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "2601.17066v1_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 6,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure1.png",
+        "caption_snippet": "Figure 1. (a) Optimized geometry of ascorbic acid with IUPAC atom numbering (indistinguishable within drawing accuracy across all methods employed). (b) HOMO spatial distribution (also indistinguishable within drawing accuracy across all methods), concentrated along the C2− −C3 bond, with significant contributions from the adjacent oxygen atoms O3 and O4, and to a lesser extent from O1 (bonded to C1). LUMO spatial distributions computed at (c) B3LYP/6-31+G(d,p), (d) M062X/6-31+G(d,p), and (e) HF..."
+      },
+      {
+        "id": "2601.17066v1_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 12,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure2.png",
+        "caption_snippet": "Figure 2. Adiabatic quantities plotted against 1 −1/ε: (a) ionization potential IP, (b) electron affinity EA, (c) HOMO-LUMO gap, and (d) electronegativity χ using data for vacuum and six solvents spanning a broad spectrum which confirm by and large the Born-like [53,54] effect of the solvents. (e–h) Their counterparts obtained by subtracting the electron solvation enthalpy from IP and EA calculated according to the standard prescription (eqs (1) and (2)) exhibiting a nearly perfect linearity sug..."
+      },
+      {
+        "id": "2601.17066v1_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 12,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure3.png",
+        "caption_snippet": "Figure 3. Gibbs free energy of solvation ∆Gsol plotted against 1 −1/ε for (a) neutral, (c) cationic, and (c) anionic species. Notice the nearly perfect linear dependence for the charged species which contrasts to the neutral molecules, a behavior which might be related to the deviation from linearity visible both in Figure 2a,b,d and in the present panel (d), which depicts the electron enthalpy of solvation taken from literature. [25]"
+      },
+      {
+        "id": "2601.17066v1_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 12,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure4.png",
+        "caption_snippet": "Figure 4. Vertical and adiabatic (a) ionization potential IP and (b) electron affinity EA and the quantities (c) Eg and (d) χ depending linearly on them plotted versus 1 −1/ε. Notice that the approximately linear vertical IP and EA are less inclined than the adiabatic ones, reflecting a similar dependence of the reorganization energies, which are equal to the difference between them. (e–h) Counterpart of the quantities shown in panels (a–d) but adding the electron’s solvation enthalpy to the Koo..."
+      },
+      {
+        "id": "2601.17066v1_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 12,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure5.png",
+        "caption_snippet": "Figure 5. Cation and anion reorganization energies Λ plotted versus 1 −1/ε computed by using (left to right): B3LYP/6-31+G(d,p), B3LYP/6-311++G(3df,3pd), M06-2X/6-31+G(d,p), and M06-2X/6-311++G(3df,3pd). These results show a series of contrasts (cation versus anion, B3LYP versus M06-2X, smaller basis set 6-31+G(d,p) versus larger basis set 6-311++G(3df,3pd)) discussed in the main text."
+      },
+      {
+        "id": "2601.17066v1_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 13,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure6.png",
+        "caption_snippet": "Figure 6. Histograms for IP = −EHOMO, EA = −ELUMO, and Eg = ELUMO −EHOMO estimated using Koopmans theorem in vacuo (panels a, c, and e) and in water (panels b, d, and f). The values in vacuo and in water, which practically coincide and drastically differ from those based on CBS-QB3 and conceptual DFT, emphasize the inability of Koopmans theorem to account for solvent effects."
+      },
+      {
+        "id": "2601.17066v1_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 13,
+        "output_path": "Resource/第四期/figures\\2601.17066v1_Figure7.png",
+        "caption_snippet": "Figure 7. (a) Ionization potential (−EHOMO) and (b) electron affinity (−ELUMO) and related quantities—(c) HOMO-LUMO gap Eg and (d) electronegativity χ— estimated via Koopmans theorem plotted versus 1 −1/ε. To better demonstrate the failure of the Koopmans theorem, vertical IP and EA values which (as inherently the case for the Koopmans-based estimates) do not include corrections due to zero point motion. The quantitative and qualitative disagreement is evident. Letting alone substantial differen..."
+      }
+    ]
+  }
+}
