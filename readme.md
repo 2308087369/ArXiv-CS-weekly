@@ -28,13 +28,13 @@
 
 ---
 
-## 本周文献推荐--《LongCat-Flash-Thinking-2601 Technical Report》
+## 本周文献推荐--《Now You Hear Me: Audio Narrative Attacks Against Large Audio–Language Models》
 
-[![阅读报告](https://img.shields.io/badge/📖_解析-点击阅读-FF9F43?style=for-the-badge)](/2026/文献推荐-快速阅读/26001_16725.md)
-[![原文下载](https://img.shields.io/badge/📥_PDF-原文下载-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2601.16725)
+[![阅读报告](https://img.shields.io/badge/📖_解析-点击阅读-FF9F43?style=for-the-badge)](./2026/文献推荐-快速阅读/2601_23255.md)
+[![原文下载](https://img.shields.io/badge/📥_PDF-原文下载-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2601.23255)
 
 **摘要**:
-LongCat-Flash-Thinking-2601 是美团 LongCat 团队发布的 **560B 参数**混合专家（MoE）推理模型。该模型通过引入“Heavy Thinking Mode”在推理阶段动态扩展计算深度与广度，在 AIME-25 数学基准测试中达到了 **100%** 的准确率；结合 ZigZag Attention 和 DORA 异步强化学习框架，该模型展现了开源界在“系统2”深度推理能力上的重大突破。
+**Now You Hear Me** (arXiv:2601.23255) 是一篇揭示多模态模型安全漏洞的重磅研究。UIUC 团队发现，通过构建“音频叙事攻击”，利用特定的语音风格（如哭腔、权威语气）可以触发模型的“拟人化偏差”，从而绕过文本安全防御。该攻击在 **Gemini 2.0 Flash** 上达到了 **98.26%** 的成功率，证明了“副语言通道”是当前 AI 安全体系的重大盲区。
 
 ---
 
