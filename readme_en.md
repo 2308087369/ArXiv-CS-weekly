@@ -23,10 +23,11 @@
 
 | Issue | Release Date | Core Themes & Keywords | Read |
 | :---: | :---: | :--- | :---: |
-| **No.004** | 2026-01-29 | **Post-LN Revival**, Inference Neuron Intervention, Generative Novel View Synthesis | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第四期.md) |
-| **No.003** | 2026-01-23 | **Embodied Physics**, Neuro-Symbolic, Computational Rationality Paradigm Shift | [Read Report](./2026/第三期.md) |
-| **No.002** | 2026-01-14 | **Continual Revolution**, Agent Control Flow, Multimodal Information Flow, Noise Adversarial | [Read Report](./2026/第二期.md) |
-| **No.001** | 2026-01-07 | **Multimodal Physics Unification**, Visual Autoregressive RL, Embodied Intelligence | [Read Report](./2026/第一期.md) |
+| **No.005** | 2026-02-05 | **Pixel Diffusion**, Deep Research Agent, Diagnostic Guardrail, Dynamic RL | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第五期_en.md) |
+| **No.004** | 2026-01-29 | **Post-LN Revival**, Inference Neuron Intervention, Generative Novel View Synthesis | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第四期_en.md) |
+| **No.003** | 2026-01-23 | **Embodied Physics**, Neuro-Symbolic, Computational Rationality Paradigm Shift | [Read Report](./2026/第三期_en.md) |
+| **No.002** | 2026-01-14 | **Continual Revolution**, Agent Control Flow, Multimodal Information Flow, Noise Adversarial | [Read Report](./2026/第二期_en.md) |
+| **No.001** | 2026-01-07 | **Multimodal Physics Unification**, Visual Autoregressive RL, Embodied Intelligence | [Read Report](./2026/第一期_en.md) |
 
 ---
 
