@@ -7,6 +7,8 @@
 
 **深度分析 · 趋势总结 · 学术洞察**
 
+[English](./readme_en.md) | [中文](./readme.md)
+
 [订阅更新](#) · [提交推荐](https://github.com/2308087369/ArXiv-CS-weekly/issues) · [加入讨论](#)
 
 </div>
