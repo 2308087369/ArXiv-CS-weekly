@@ -31,13 +31,13 @@
 
 ---
 
-## Recommended Paper of the Week -- "Now You Hear Me: Audio Narrative Attacks Against Large Audio–Language Models"
+## Recommended Paper of the Week -- "Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI"
 
-[![Analysis](https://img.shields.io/badge/📖_Analysis-Click_to_Read-FF9F43?style=for-the-badge)](./2026/文献推荐-快速阅读/2601_23255_en.md)
-[![Download PDF](https://img.shields.io/badge/📥_PDF-Download-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2601.23255)
+[![Analysis](https://img.shields.io/badge/📖_Analysis-Click_to_Read-FF9F43?style=for-the-badge)](./2026/文献推荐-快速阅读/2602_08373_en.md)
+[![Download PDF](https://img.shields.io/badge/📥_PDF-Download-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2602.08373)
 
 **Abstract**:
-**Now You Hear Me** (arXiv:2601.23255) is a significant study revealing security vulnerabilities in multimodal models. The UIUC team discovered that by constructing "audio narrative attacks" using specific speech styles (such as crying or authoritative tones), they could trigger the model's "anthropomorphism bias," thereby bypassing text safety defenses. This attack achieved a **98.26%** success rate on **Gemini 2.0 Flash**, proving that the "paralinguistic channel" is a major blind spot in current AI safety systems.
+**VIRF (Verifiable Iterative Refinement Framework)** (arXiv:2602.08373) marks a paradigm shift in safety mechanisms from "passive interception" to "active collaboration." Addressing common "semantic hallucinations" and "safety blind spots" in large model planning, VIRF introduces a unique "Tutor-Apprentice" dialogue mechanism. Through causal pedagogical feedback, it guides the model to understand and repair logical errors rather than simply rejecting them. In complex home safety tasks, the framework achieved a perfect **0% Hazardous Action Rate (HAR)** while maintaining an industry-leading **77.3%** Goal-Condition Rate (GCR), proving that formal logic is the cornerstone of trustworthy embodied intelligence.
 
 ---
 

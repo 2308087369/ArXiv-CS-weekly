@@ -31,13 +31,13 @@
 
 ---
 
-## 本周文献推荐--《Now You Hear Me: Audio Narrative Attacks Against Large Audio–Language Models》
+## 本周文献推荐--《Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI》
 
-[![阅读报告](https://img.shields.io/badge/📖_解析-点击阅读-FF9F43?style=for-the-badge)](./2026/文献推荐-快速阅读/2601_23255.md)
-[![原文下载](https://img.shields.io/badge/📥_PDF-原文下载-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2601.23255)
+[![阅读报告](https://img.shields.io/badge/📖_解析-点击阅读-FF9F43?style=for-the-badge)](./2026/文献推荐-快速阅读/2602_08373.md)
+[![原文下载](https://img.shields.io/badge/📥_PDF-原文下载-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2602.08373)
 
 **摘要**:
-**Now You Hear Me** (arXiv:2601.23255) 是一篇揭示多模态模型安全漏洞的重磅研究。UIUC 团队发现，通过构建“音频叙事攻击”，利用特定的语音风格（如哭腔、权威语气）可以触发模型的“拟人化偏差”，从而绕过文本安全防御。该攻击在 **Gemini 2.0 Flash** 上达到了 **98.26%** 的成功率，证明了“副语言通道”是当前 AI 安全体系的重大盲区。
+**VIRF (Verifiable Iterative Refinement Framework)** (arXiv:2602.08373) 标志着具身智能安全机制从“被动拦截”向“主动协同”的转移。针对大模型规划中常见的“语义幻觉”与“安全盲点”，VIRF 引入了独特的“导师-学徒”对话机制，通过因果教学反馈引导模型理解并修复逻辑错误，而非简单拒绝。在复杂家居安全任务中，该框架实现了完美的 **0% 有害动作率 (HAR)**，同时保持了行业领先的 **77.3%** 目标达成率，证明了形式化逻辑是构建可信具身智能的基石。
 
 ---
 
