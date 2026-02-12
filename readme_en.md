@@ -23,6 +23,7 @@
 
 | Issue | Release Date | Core Themes & Keywords | Read |
 | :---: | :---: | :--- | :---: |
+| **No.006** | 2026-02-12 | **SkillRL Recursive Evo**, LLaDA 2.1 Diffusion Edit, Latent-CoT Interpretability, VLA-JEPA World Model | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第六期_en.md) |
 | **No.005** | 2026-02-05 | **Pixel Diffusion**, Deep Research Agent, Diagnostic Guardrail, Dynamic RL | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第五期_en.md) |
 | **No.004** | 2026-01-29 | **Post-LN Revival**, Inference Neuron Intervention, Generative Novel View Synthesis | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第四期_en.md) |
 | **No.003** | 2026-01-23 | **Embodied Physics**, Neuro-Symbolic, Computational Rationality Paradigm Shift | [Read Report](./2026/第三期_en.md) |
