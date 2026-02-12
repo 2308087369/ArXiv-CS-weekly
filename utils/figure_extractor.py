@@ -316,10 +316,11 @@ def main():
         return
 
     for pdf_path in pdfs_to_process:
-        if args.term:
-            extractor.extract_figure(pdf_path, args.term, args.id)
-        else:
-            extractor.extract_all_figures(pdf_path)
+        print(f"PDF downloaded/verified: {pdf_path}")
+        # if args.term:
+        #     extractor.extract_figure(pdf_path, args.term, args.id)
+        # else:
+        #     extractor.extract_all_figures(pdf_path)
 
 if __name__ == "__main__":
     main()
