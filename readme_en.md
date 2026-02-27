@@ -23,22 +23,13 @@
 
 | Issue | Release Date | Core Themes & Keywords | Read |
 | :---: | :---: | :--- | :---: |
+| **No.007** | 2026-02-26 | **Mobile-O Edge Multimodal**, UPipe Memory Wall Break, ProactiveMobile Benchmark, Nemotron Data Eng | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第七期_en.md) |
 | **No.006** | 2026-02-12 | **SkillRL Recursive Evo**, LLaDA 2.1 Diffusion Edit, Latent-CoT Interpretability, VLA-JEPA World Model | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第六期_en.md) |
 | **No.005** | 2026-02-05 | **Pixel Diffusion**, Deep Research Agent, Diagnostic Guardrail, Dynamic RL | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第五期_en.md) |
 | **No.004** | 2026-01-29 | **Post-LN Revival**, Inference Neuron Intervention, Generative Novel View Synthesis | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第四期_en.md) |
 | **No.003** | 2026-01-23 | **Embodied Physics**, Neuro-Symbolic, Computational Rationality Paradigm Shift | [Read Report](./2026/第三期_en.md) |
 | **No.002** | 2026-01-14 | **Continual Revolution**, Agent Control Flow, Multimodal Information Flow, Noise Adversarial | [Read Report](./2026/第二期_en.md) |
 | **No.001** | 2026-01-07 | **Multimodal Physics Unification**, Visual Autoregressive RL, Embodied Intelligence | [Read Report](./2026/第一期_en.md) |
-
----
-
-## Recommended Paper of the Week -- "Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI"
-
-[![Analysis](https://img.shields.io/badge/📖_Analysis-Click_to_Read-FF9F43?style=for-the-badge)](./2026/文献推荐-快速阅读/2602_08373_en.md)
-[![Download PDF](https://img.shields.io/badge/📥_PDF-Download-FF6B6B?style=for-the-badge)](https://arxiv.org/pdf/2602.08373)
-
-**Abstract**:
-**VIRF (Verifiable Iterative Refinement Framework)** (arXiv:2602.08373) marks a paradigm shift in safety mechanisms from "passive interception" to "active collaboration." Addressing common "semantic hallucinations" and "safety blind spots" in large model planning, VIRF introduces a unique "Tutor-Apprentice" dialogue mechanism. Through causal pedagogical feedback, it guides the model to understand and repair logical errors rather than simply rejecting them. In complex home safety tasks, the framework achieved a perfect **0% Hazardous Action Rate (HAR)** while maintaining an industry-leading **77.3%** Goal-Condition Rate (GCR), proving that formal logic is the cornerstone of trustworthy embodied intelligence.
 
 ---
 
