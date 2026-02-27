@@ -194,12 +194,6 @@ By performing deep chunking in the Attention Head dimension of the attention mat
 
 #### **From Memorization Paradox to Linear Attention**
 
-<div align="center">
-  <img src="../Resource/第七期/ttt-linear-attention.png" width="80%">
-  <br>
-  <em>Figure 6: Mathematical Reconstruction of TTT Mechanism: Proving TTT with KV Binding is equivalent to Enhanced Linear Attention (Source: Original Paper)</em>
-</div>
-
 In LLM research over the past two years, Test-Time Training (TTT) and its variants with KV Binding were widely considered advanced implicit mechanisms for "Online Meta-learning" via internal loops or deep "Memorization". However, this paper launches a fundamental subversion of this mainstream perception with extremely rigorous mathematical derivation and detailed ablation experiments.
 
 The paper's breakthrough lies in proving from the underlying perspective of algebra and calculus: a large class of seemingly extremely complex TTT architectures, even if wrapped in non-linear MLPs, complex weight normalization, adaptive learning rates, and momentum update equations, can be losslessly rewritten and reduced to a **Learned Linear Attention Operator** with enhanced representation capability in terms of absolute mathematical equivalence.
@@ -226,12 +220,6 @@ This research ruthlessly but elegantly pulls the TTT mechanism, wrapped in the c
 **Source**: arXiv:2602.21189 [cs.LG] **Date**: Feb 2026
 
 #### **Implicit Reweighting & Gradient Conflict**
-
-<div align="center">
-  <img src="../Resource/第七期/pass-k-paradox.png" width="80%">
-  <br>
-  <em>Figure 7: Pass@k Optimization Gradient Conflict Diagram: Implicit reweighting causes negatively interfering prompts to distort gradient direction (Source: Original Paper)</em>
-</div>
 
 In the post-training phase of LLMs, the Pass@k metric has become an extremely mainstream objective function in reinforcement learning optimization due to its excellent multi-sample exploration evaluation capability. However, in engineering practice, researchers repeatedly encounter a paradox: as the Pass@k metric rises, the performance of single direct response (Pass@1) suffers severe degradation.
 
