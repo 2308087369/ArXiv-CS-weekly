@@ -23,6 +23,7 @@
 
 | Issue | Release Date | Core Themes & Keywords | Read |
 | :---: | :---: | :--- | :---: |
+| **No.008** | 2026-03-05 | **Transfusion Unified Multimodal**, Qwen3 Code Agent, PRISM Deep Think, CoW-Bench World Model | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第八期_en.md) |
 | **No.007** | 2026-02-26 | **Mobile-O Edge Multimodal**, UPipe Memory Wall Break, ProactiveMobile Benchmark, Nemotron Data Eng | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第七期_en.md) |
 | **No.006** | 2026-02-12 | **SkillRL Recursive Evo**, LLaDA 2.1 Diffusion Edit, Latent-CoT Interpretability, VLA-JEPA World Model | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第六期_en.md) |
 | **No.005** | 2026-02-05 | **Pixel Diffusion**, Deep Research Agent, Diagnostic Guardrail, Dynamic RL | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第五期_en.md) |
