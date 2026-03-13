@@ -23,7 +23,8 @@
 
 | 期数 | 发布日期 | 核心主题 & 关键词 | 阅读入口 |
 | :---: | :---: | :--- | :---: |
-| **No.008** | 2026-03-05 | **Transfusion多模态统一**、Qwen3代码智能体、PRISM深度思考、CoW-Bench世界模型 | [![阅读报告](https://img.shields.io/badge/阅读报告-FF9F43?style=for-the-badge)](./2026/第八期.md) |
+| **No.009** | 2026-03-12 | **InternVL-U统一多模态**、MM-Zero零数据演化、Spatial-TTT空间智能、CoT-Control推理可控 | [![阅读报告](https://img.shields.io/badge/阅读报告-FF9F43?style=for-the-badge)](./2026/第九期.md) |
+| **No.008** | 2026-03-05 | **Transfusion多模态统一**、Qwen3代码智能体、PRISM深度思考、CoW-Bench世界模型 | [阅读报告](./2026/第八期.md) |
 | **No.007** | 2026-02-26 | **Mobile-O边缘多模态**、UPipe内存墙突破、ProactiveMobile主动智能、Nemotron数据工程 | [阅读报告](./2026/第七期.md) |
 | **No.006** | 2026-02-12 | **SkillRL递归进化**、LLaDA 2.1扩散编辑、潜思维链解释性、VLA-JEPA世界模型 | [阅读报告](./2026/第六期.md) |
 | **No.005** | 2026-02-05 | **PixelGen重构**、深度研究智能体、动态强化学习生态 | [阅读报告](./2026/第五期.md) |
