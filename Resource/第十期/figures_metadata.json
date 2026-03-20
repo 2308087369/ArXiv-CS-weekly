@@ -1,0 +1,312 @@
+{
+  "Cubic-Discrete-Diffusion": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure1.png",
+        "caption_snippet": "Figure 1. Comparison of discrete visual generation ap- proaches. (a) Low-dimensional token generation: Both meth- ods operate at the spatial level—autoregressive requires h × w sequential steps, while discrete diffusion achieves parallel genera- tion in T < h×w iterations. (b) High-dimensional token gener- ation: Autoregressive becomes intractable (h × w × d steps), and standard discrete diffusion cannot model intra-position dependen- cies. Our Cubic Discrete Diffusion performs fine-grained mask..."
+      },
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 2,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure2.png",
+        "caption_snippet": "Figure 2. Generated samples from CubiD. Class-conditional generation results on ImageNet 256×256 using high-dimensional represen- tation tokens from DINOv2-B encoder, demonstrating fine details and textures across diverse categories."
+      },
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 4,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure3.png",
+        "caption_snippet": "Figure 3. Overview of Cubic Discrete Diffusion. (a) High-dimensional Token Discretization. Given an input image, a frozen represen- tation encoder extracts continuous tokens, which are then discretized through dimension-wise quantization into h × w × d discrete tokens. (b) Training via Dimension-wise Mask Modeling. During training, we randomly mask tokens across both spatial and dimensional axes of the tensor (white: masked tokens, pink: visible ground truth tokens, other colors: predicted token..."
+      },
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 5,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure4.png",
+        "caption_snippet": "Figure 4. Inference process of CubiD. Top row shows the latent token state (white: masked, pink: unmasked), bottom row shows corresponding decoded images. During generation, CubiD starts from a fully masked tensor (0%) and progressively unmasks tokens until reaching a complete image (100%). At each iteration, the model predicts all masked tokens in parallel and randomly unmasks a subset. The percentages show the progress through generation steps. Generation takes hundreds of iterations regardles..."
+      },
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 7,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure5.png",
+        "caption_snippet": "Figure 5. Qualitative comparison of different masking strate- gies. Top row: Per-dim masking completely fails, producing se- vere texture-like artifacts. Middle row: Per-spatial masking gen- erates images with significant local inconsistencies and blurry de- tails. Bottom row: Our per-element masking produces clear, co- herent images with fine details. The dramatic quality difference validates that high-dimensional tokens require fine-grained mask- ing across both spatial and dimensional axes."
+      },
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 13,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure6.png",
+        "caption_snippet": "Figure 6. Uncurated samples on ImageNet 256×256 using CubiD-XXL conditioned on the specified classes."
+      },
+      {
+        "id": "Cubic-Discrete-Diffusion_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 14,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Cubic-Discrete-Diffusion_Figure7.png",
+        "caption_snippet": "Figure 7. Uncurated samples on ImageNet 256×256 using CubiD-XXL conditioned on the specified classes."
+      }
+    ]
+  },
+  "Loc3R-VLM": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Loc3R-VLM_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 1,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Loc3R-VLM_Fig1.png",
+        "caption_snippet": "Fig. 1: Loc3R-VLM equips 2D VLMs with advanced 3D spatial understanding capa- bilities from video. Inspired by human cognition, it builds an internal cognitive map of the global environment while explicitly modeling an agent’s position and orientation. By jointly capturing global layout and egocentric state, the model excels at two core tasks: language-driven localization and viewpoint-aware 3D reasoning."
+      },
+      {
+        "id": "Loc3R-VLM_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 5,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Loc3R-VLM_Fig2.png",
+        "caption_snippet": "Fig. 2: Overview of Loc3R-VLM. Our framework takes a monocular video as input and augments the vision token sequence with per-frame latent camera pose priors extracted from the 3D foundation model CUT3R [55]. The model is jointly trained using two spatial objectives: (1) layout reconstruction, which grounds vision patch tokens into a bird’s-eye-view (BEV) space to capture global scene structure, and (2) situation modeling, which utilizes dedicated localization query tokens to localize an agent f..."
+      },
+      {
+        "id": "Loc3R-VLM_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 6,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Loc3R-VLM_Fig3.png",
+        "caption_snippet": "Fig. 3: Spatial Supervision Frame- work introduces complementary training signals. For the layout reconstruction ob- jective, the model learns to ground each vision patch token onto its correspond- ing BEV coordinate in a cognitive map to capture global scene structure. For lo- calization, dedicated localization tokens explicitly model the agent’s position and orientation. The framework is trained end- to-end using a joint objective of layout, localization, and language losses."
+      },
+      {
+        "id": "Loc3R-VLM_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 9,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Loc3R-VLM_Fig4.png",
+        "caption_snippet": "Fig. 4: Qualitative Results for language-based localization and situated QA on SQA3D [34]. Loc3R-VLM accurately grounds the described situations (blue: prediction, green: ground truth) and provides the correct viewpoint-dependent answer. Meshes are shown for visualization only and are not used by the model."
+      }
+    ]
+  },
+  "Omnilingual-MT": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Omnilingual-MT_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 10,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Omnilingual-MT_Figure3.png",
+        "caption_snippet": "Figure 3.2 Graph with distribution of languages per resource bucket. Note that we count all languages for which we have some data (including monolingual data and word-level parallel data like Panlex), but the buckets are determined based on the parallel data that is at least (and predominantly) sentence-level."
+      },
+      {
+        "id": "Omnilingual-MT_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 23,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Omnilingual-MT_Figure4.png",
+        "caption_snippet": "Figure 4.2 Bouquet Language Expansion Visualization. Details on pivots that were used to translate each language show that most useful ones were fra_Latn, ind_latn, swh_latn and spa_latn."
+      },
+      {
+        "id": "Omnilingual-MT_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 33,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Omnilingual-MT_Figure7.png",
+        "caption_snippet": "Figure 7.2 ChrF++ improvements (English to target translation) in languages where autoencoding data is used. Points above the diagonal indicate languages in which autoencoding data helped to improve the performance of the model."
+      },
+      {
+        "id": "Omnilingual-MT_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 49,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Omnilingual-MT_Figure8.png",
+        "caption_snippet": "Figure 8.3 ROC AUC per language for MuTox and OmniTOX. OmniTOX outperforms MuTox on 28 of 30 languages."
+      },
+      {
+        "id": "Omnilingual-MT_Figure9",
+        "search_term": "Figure Figure9",
+        "page": 59,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\Omnilingual-MT_Figure9.png",
+        "caption_snippet": "Figure 9.8 Mean XSTS+R+P scores for each of the 57 directions of Met-Bouquet Round 2 for the OMT system (vertical axis) and the baseline system (horizontal axis)."
+      }
+    ]
+  },
+  "RARRL": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "RARRL_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 1,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\RARRL_Fig1.png",
+        "caption_snippet": "Fig. 1: Overview of the proposed single-agent embodied architecture. A reinforcement learning (RL) policy operates at the decision-making layer to regulate when the agent should act directly and when to invoke expensive LLM-based reasoning modules under resource constraints. The reward signal is used during training to update the orchestration policy based on task outcome and execution latency."
+      },
+      {
+        "id": "RARRL_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 3,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\RARRL_Fig2.png",
+        "caption_snippet": "Fig. 2: Decision process and training pipeline of the pro- posed orchestration policy. The embodied agent observes the current task state, execution history, and remaining computa- tional budget, which are encoded and provided to a reinforce- ment learning–based policy. At each decision step, the policy determines whether to execute a high-level action directly or to invoke an LLM-based reasoning module. Execution feedback, including task outcome and execution latency, is used to compute rewards..."
+      },
+      {
+        "id": "RARRL_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 3,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\RARRL_Figure2.png",
+        "caption_snippet": "Figure 2 shows the overall architecture. We consider a single embodied agent interacting with an abstract sequen- tial task process through an observation–action interface. A reinforcement learning (RL) policy governs when to invoke computationally expensive LLM-based reasoning modules, explicitly trading off task performance and resource con- sumption. The key idea is to decouple high-level reasoning orchestration from low-level action execution. a) RL-Based Orchestration: At each step, the orc..."
+      },
+      {
+        "id": "RARRL_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 5,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\RARRL_Fig3.png",
+        "caption_snippet": "Fig. 3: Illustration of a representative multi-step embodied robotic task. The agent performs navigation, inspection, and delivery stages, during which reasoning demands vary. Com- plex stages benefit from high-level reasoning, while routine stages favor direct execution, motivating adaptive reasoning orchestration."
+      },
+      {
+        "id": "RARRL_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 5,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\RARRL_Fig4.png",
+        "caption_snippet": "Fig. 4: Performance ceiling analysis. Each point shows mean task success over 5 random seeds with standard deviation. Execution and reasoning strength jointly determine the at- tainable performance ceiling, while adaptive orchestration enables closer approach to this ceiling."
+      },
+      {
+        "id": "RARRL_Fig5",
+        "search_term": "Figure Fig5",
+        "page": 5,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\RARRL_Fig5.png",
+        "caption_snippet": "Fig. 5: Robustness to latency uncertainty. Task success rate under increasing execution and reasoning latency variabil- ity. Points show mean performance over 5 random seeds, with error bars indicating standard deviation. The proposed orchestration policy degrades more gracefully than heuristic strategies as latency uncertainty increases."
+      }
+    ]
+  },
+  "STTS": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "STTS_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 2,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure1.png",
+        "caption_snippet": "Figure 1 (Left) Token pruning with our STTS (purple box) vs. a cosine-similarity-based heuristic. STTS learns that background patches are less important, while the heuristic prunes all tokens equally. (Right) QA performance under increasing vision token pruning ratios (k%). STTS (pink squares) consistently demonstrates a flatter, more robust degradation curve compared to the Random baseline (blue circles) across all metrics."
+      },
+      {
+        "id": "STTS_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 3,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure2.png",
+        "caption_snippet": "Figure 2 illustrates the overall architecture of our framework. Our model follows the common design of modern VLMs, combining a pre-trained LLM with a ViT [10] via a connector module [9, 20]. Concretely, we build upon Molmo2 [8] as our backbone, which applies w × w spatial pooling (w = 3 by default) to compress raw ViT patch tokens before feeding them into the LLM."
+      },
+      {
+        "id": "STTS_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 4,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure3.png",
+        "caption_snippet": "Figure 3 Architectural and procedural overview of STTS. We use 9x9 tokens per frame for illustration. Vision features after ViT layer l are first downsampled via pooling then scored. The scores are injected as attention bias for layer l + 1 before the pruning algorithm is applied to allow for spatial pruning. The scores are also aligned with neighboring-frame per-patch cosine similarity for temporal pruning."
+      },
+      {
+        "id": "STTS_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 5,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure4.png",
+        "caption_snippet": "Figure 4 Visualization of the packing algorithm. (a) Before pruning, the scoring mechanism identifies the bottom-k% importance tokens (in dotted squares) to be removed. (b) To reduce tensor sparsity, the remaining tokens from Frame 2 (green) and Frame 4 (red) are consolidated into a single packed batch entry. Because Frame 1 is always untouched and Frame 3 retains high token counts, they remain independent."
+      },
+      {
+        "id": "STTS_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 8,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure5.png",
+        "caption_snippet": "Figure 5 Comparison of efficiency gains during training and inference across different pruning ratios (k). As k increases, speedups greatly increase and become significantly larger when sampling more frames. See Supp. Sec. B for more details."
+      },
+      {
+        "id": "STTS_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 9,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure6.png",
+        "caption_snippet": "Figure 6 illustrates a positive correlation between performance and depth l. The significant 1% performance gap between l = 0 and l = 3, alongside the 0.5% gap between l = 1 and l = 3, indicates that premature pruning is detrimental. We hypothesize that this performance degradation arises either because the scorer lacks sufficient contextualized information to identify salient tokens or because bias injection and hard pruning disproportionately damage the ViT’s initial, more sensitive layers. Si..."
+      },
+      {
+        "id": "STTS_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 10,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\STTS_Figure7.png",
+        "caption_snippet": "Figure 7 Visualizations of STTS (purple box) vs. the heuristic. STTS attempts to keep important information despite temporal redundancy, while the heuristic prunes them regardless due to the lack of knowledge."
+      }
+    ]
+  },
+  "VEGA-3D": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "VEGA-3D_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 1,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig1.png",
+        "caption_snippet": "Fig. 1: Comparison of existing paradigms. Unlike methods relying on (a) explicit 3D inputs or (b) complex geometric supervision, (c) our VEGA-3D extracts implicit priors from video generation models. By repurposing them as Latent World Simulators, we achieve (d) superior performance without external 3D dependencies."
+      },
+      {
+        "id": "VEGA-3D_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 3,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig2.png",
+        "caption_snippet": "Fig. 2: Visualization of implicit 3D priors. (a) The generation model demonstrates strong multi-view geometric consistency, evidenced by high correspondence scores and stable PCA feature representations across shifting camera views. (b) By leveraging these priors, our VEGA-3D overcomes the spatial ambiguity observed in the baseline, yielding precisely-located attention maps of the target object in the instruction."
+      },
+      {
+        "id": "VEGA-3D_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 4,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig3.png",
+        "caption_snippet": "Fig. 3: Feature Analysis. (a): Generative priors effectively complement semantic features with fusion, yielding consistent performance gains. (b): Multi-view correspon- dence strongly correlates with downstream 3D understanding performance. More de- tails in Sec. 4.1"
+      },
+      {
+        "id": "VEGA-3D_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 6,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig4.png",
+        "caption_snippet": "Fig. 4: Overview of the VEGA-3D framework. We repurpose a frozen video generation model as a Latent World Simulator to extract implicit 3D priors. These features are dynamically integrated with the semantic stream via Adaptive Gated Fusion, equipping the MLLM with dense 3D structural awareness."
+      },
+      {
+        "id": "VEGA-3D_Fig5",
+        "search_term": "Figure Fig5",
+        "page": 8,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig5.png",
+        "caption_snippet": "Fig. 5: Adaptive Gated Fusion. It dynamically integrates heteroge- neous features using a token-level gating mechanism."
+      },
+      {
+        "id": "VEGA-3D_Fig6",
+        "search_term": "Figure Fig6",
+        "page": 27,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig6.png",
+        "caption_snippet": "Fig. 6 studies how the extracted generative prior changes with the diffusion timestep and the DiT depth. For completeness, we report the exact downstream results corresponding to Fig. 6 in Tabs. A3 and A5. We also provide additional timestep ablations for SEVA and Vmem in Tab. A4, which show a similar trend: intermediate timesteps generally yield stronger and more stable downstream performance than very late timesteps."
+      },
+      {
+        "id": "VEGA-3D_Fig8",
+        "search_term": "Figure Fig8",
+        "page": 29,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig8.png",
+        "caption_snippet": "Fig. 8: Qualitative comparison on ScanRefer. Compared with the baseline, VEGA- 3D localizes the referred object accurately under clutter, occlusion, and ambiguous referring expressions, reflecting stronger spatial grounding from the generative prior."
+      },
+      {
+        "id": "VEGA-3D_Fig9",
+        "search_term": "Figure Fig9",
+        "page": 30,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig9.png",
+        "caption_snippet": "Fig. 9: Representative failure case on ScanRefer. We show the VEGA-3D prediction and the ground-truth box, indicating that VEGA-3D captures a reasonable spatial anchor but can still struggle with fine-grained instance disambiguation in cluttered scenes."
+      },
+      {
+        "id": "VEGA-3D_Fig10",
+        "search_term": "Figure Fig10",
+        "page": 30,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig10.png",
+        "caption_snippet": "Fig. 10: Qualitative comparison on the Appearance Order subset of VSI-Bench. VEGA-3D better captures the ordering of object appearances and is less distracted by locally plausible but temporally inconsistent choices than the baseline."
+      },
+      {
+        "id": "VEGA-3D_Fig11",
+        "search_term": "Figure Fig11",
+        "page": 30,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig11.png",
+        "caption_snippet": "Fig. 11: Qualitative comparison on the Relative Direction subset of VSI-Bench. VEGA-3D yields reliable directional reasoning, such as left/right and front/behind relations, by grounding the decision in geometry-consistent visual features."
+      },
+      {
+        "id": "VEGA-3D_Fig12",
+        "search_term": "Figure Fig12",
+        "page": 31,
+        "output_path": "d:\\py_work\\arxiv-weekly\\Resource\\第十期\\VEGA-3D_Fig12.png",
+        "caption_snippet": "Fig. 12: Qualitative comparison on the Relative Distance subset of VSI-Bench. VEGA- 3D distinguishes near/far relationships and relative depth ordering, whereas the base- line is prone to confuse objects with similar semantics but different spatial positions."
+      }
+    ]
+  }
+}
