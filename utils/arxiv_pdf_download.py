@@ -315,8 +315,15 @@ def main():
         print("No valid PDFs to process. Please provide --pdf or --arxiv.")
         return
 
-    for pdf_path in pdfs_to_process:
-        print(f"PDF downloaded/verified: {pdf_path}")
+    # If a specific term is provided, extract that figure; otherwise extract all figures
+    if args.term:
+        for pdf_path in pdfs_to_process:
+            print(f"Processing (term) -> {pdf_path}")
+            extractor.extract_figure(pdf_path, args.term, args.id)
+    else:
+        for pdf_path in pdfs_to_process:
+            print(f"Processing (all) -> {pdf_path}")
+            extractor.extract_all_figures(pdf_path)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,202 @@
+{
+  "MSA": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "MSA_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 2,
+        "output_path": "Resource\\第十一期\\MSA_Figure1.png",
+        "caption_snippet": "Figure 1: MSA integrates topk selection with sparse attention, achieving strong scalability while remaining differentiable. This design enables end-to-end training, yet allows the documents to be decoupled at inference time, thereby providing robust extrapolation capability. MSA demonstrates exceptional scalability on the MS MARCO dataset, sustaining consistent performance with less than 9% degradation across an unprecedented memory context range from 16K to 100M tokens. Some curves terminate pr..."
+      },
+      {
+        "id": "MSA_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 6,
+        "output_path": "Resource\\第十一期\\MSA_Figure2.png",
+        "caption_snippet": "Figure 2: Memory Sparse Attention layer"
+      },
+      {
+        "id": "MSA_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 8,
+        "output_path": "Resource\\第十一期\\MSA_Figure3.png",
+        "caption_snippet": "Figure 3: Three-Stage Inference Process with Memory Interleave"
+      },
+      {
+        "id": "MSA_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 11,
+        "output_path": "Resource\\第十一期\\MSA_Figure4.png",
+        "caption_snippet": "Figure 4: Results on the \"Needle In A Haystack\" (NIAH) evaluation across varying context lengths from 32k to 1M tokens."
+      }
+    ]
+  },
+  "S-Path-RAG": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "S-Path-RAG_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 4,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure1.png",
+        "caption_snippet": "Figure 1: Overview of S-Path-RAG. Given a natural language question, the system performs entity linking to obtain top-m seed entities and enters an iterative Neural-Socratic Graph Dialogue loop. In each round, a GNN encodes the current subgraph, a weighted path enumerator proposes candidate paths, and a scorer with a verifier ranks their relevance. A soft mixture of selected path embeddings is injected into a frozen language model via cross-attention, and the resulting answer together with a dia..."
+      },
+      {
+        "id": "S-Path-RAG_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 8,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure2.png",
+        "caption_snippet": "Figure 2: Answer coverage versus number of retrieved paths for different retrieval strategies."
+      },
+      {
+        "id": "S-Path-RAG_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 8,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure3.png",
+        "caption_snippet": "Figure 3: Attention heatmap showing token-to-path alignment (darker = higher attention)."
+      },
+      {
+        "id": "S-Path-RAG_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 9,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure4.png",
+        "caption_snippet": "Figure 4: Answer coverage versus number of retrieved paths for different retrieval strategies."
+      },
+      {
+        "id": "S-Path-RAG_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 18,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure5.png",
+        "caption_snippet": "Figure 5: Per-round diagnostics: subgraph size, path count, and answer confidence."
+      },
+      {
+        "id": "S-Path-RAG_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 18,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure6.png",
+        "caption_snippet": "Figure 6: Hyperparameter sensitivity analysis."
+      },
+      {
+        "id": "S-Path-RAG_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 19,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure7.png",
+        "caption_snippet": "Figure 7: F1 and token cost v.s. path-latent dimension; 32D is Pareto-optimal."
+      },
+      {
+        "id": "S-Path-RAG_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 19,
+        "output_path": "Resource\\第十一期\\S-Path-RAG_Figure8.png",
+        "caption_snippet": "Figure 8: CWQ F1 as a function of edge-weight coefficients. The optimum occurs in the hybrid regime and peaks at 78.2."
+      }
+    ]
+  },
+  "Before-the-Tool-Call": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Before-the-Tool-Call_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 5,
+        "output_path": "Resource\\第十一期\\Before-the-Tool-Call_Figure1.png",
+        "caption_snippet": "Figure 1: OAP authorization flow. The before_tool_call hook intercepts every tool call before execution."
+      },
+      {
+        "id": "Before-the-Tool-Call_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 9,
+        "output_path": "Resource\\第十一期\\Before-the-Tool-Call_Figure2.png",
+        "caption_snippet": "Figure 2: OAP Authorization Algorithm. Line 14 (ESCALATE) is specified but not yet implemented in the reference."
+      }
+    ]
+  },
+  "Large-Reward-Models": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Large-Reward-Models_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 2,
+        "output_path": "Resource\\第十一期\\Large-Reward-Models_Fig1.png",
+        "caption_snippet": "Fig. 1: The overview of our method. Our framework leverages specialized Large Reward Model (LRM) generation to facilitate online policy refinement for high-precision robotic control. Initially, diverse video trajectories from real-robot corpora, human-object interactions, and simulated benchmarks are processed to fine-tune a Qwen3-VL-8B-Instruct backbone via LoRA. This specialization yields three independent reward modalities: the Temporal Contrastive Reward (rcont) for relative ranking, the Abs..."
+      },
+      {
+        "id": "Large-Reward-Models_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 6,
+        "output_path": "Resource\\第十一期\\Large-Reward-Models_Fig2.png",
+        "caption_snippet": "Fig. 2: Cumulative accuracy at varying tolerance thresholds (±∆). Our LRM consistently outperforms the baseline across all thresholds, with the most significant gains achieved in the high-precision regime ±0.2."
+      },
+      {
+        "id": "Large-Reward-Models_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 7,
+        "output_path": "Resource\\第十一期\\Large-Reward-Models_Fig3.png",
+        "caption_snippet": "Fig. 3: Comparison of real-world robot rollouts between the SFT baseline and RL finetuning with LRM. The SFT baseline fails to complete the task, mistakenly placing the toy giraffe beside the target bowl. In contrast, RL finetuning with LRM successfully places the giraffe inside the bowl, demonstrating the effectiveness of LRM-driven policy improvement."
+      },
+      {
+        "id": "Large-Reward-Models_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 7,
+        "output_path": "Resource\\第十一期\\Large-Reward-Models_Fig4.png",
+        "caption_snippet": "Fig. 4: Robot setup for the pick and place task."
+      }
+    ]
+  },
+  "Price-Reversal": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Price-Reversal_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 2,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure1.png",
+        "caption_snippet": "Figure 1: The phenomenon of mismatch between AI model pricing and their actual costs. (a) On the same user workloads, AI models with lower listed prices may incur much higher expenses than those with higher prices. For example, Gemini 3 Flash’s list price ($3.5/1 million tokens) is 78% cheaper than that of GPT-5.2 ($15.75), but its actual cost ($643) is actually 22% higher than GPT-5.2 ($527). (b) This dramatically changes the cost ranking and poses a pressing challenge to cost-sensitive users. ..."
+      },
+      {
+        "id": "Price-Reversal_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 4,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure2.png",
+        "caption_snippet": "Figure 2: The ranking inversion phenomenon. Overall, we observe that the listed price rankings systematically mismatch the actual costs. In addition, the actual cost rankings vary substantially across different tasks. This suggests that standard assessment according to a fixed listed API pricing is misleading."
+      },
+      {
+        "id": "Price-Reversal_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 5,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure3.png",
+        "caption_snippet": "Figure 3: Cost and token consumption breakdown by token types. Thinking tokens dominate both token volume and total cost for most models, establishing them as the primary candidate for explaining pricing reversal."
+      },
+      {
+        "id": "Price-Reversal_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 6,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure4.png",
+        "caption_snippet": "Figure 4: Case study: on the same AIME problem, GPT-5.2 uses 562 thinking tokens while Gemini 3 Flash uses over 11,000, leading to 2.5× higher actual cost despite lower API pricing. The mechanism of reversal is the enormous cross-model variance in thinking token consumption."
+      },
+      {
+        "id": "Price-Reversal_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 7,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure5.png",
+        "caption_snippet": "Figure 5: Ablation study: removing thinking token costs from actual cost computation. (a) Kendall’s τ between listed price ranking and actual cost ranking increases substantially across all tasks. (b) The number of pairwise ranking reversals drops by 70% on average, confirming that thinking tokens are the primary cause of pricing reversal."
+      },
+      {
+        "id": "Price-Reversal_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 8,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure6.png",
+        "caption_snippet": "Figure 6: Query-level actual cost prediction using a KNN baseline. The prediction accuracy varies across models: relatively tighter on low-variance models such as Claude Haiku 4.5, but poor on high- variance models such as Gemini 3.1 Pro, where per-query thinking token consumption is highly un- predictable."
+      },
+      {
+        "id": "Price-Reversal_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 9,
+        "output_path": "Resource\\第十一期\\Price-Reversal_Figure7.png",
+        "caption_snippet": "Figure 7: Thinking token consumption across 6 independent runs of the same query (1 original + 5 repeated trials) on AIME. For each query, the vertical bar spans the min-to-max range; circles denote repeated trials and stars denote the original run. Substantial within-query variance is observed across all three models, with max/min ratios up to 9.7×."
+      }
+    ]
+  }
+}
