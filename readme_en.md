@@ -23,6 +23,7 @@
 
 | Issue | Release Date | Core Themes & Keywords | Read |
 | :---: | :---: | :--- | :---: |
+| **No.012** | 2026-04-03 | **Parameter-Free Routing**, Optimizer-Aware Data Selection, Latent Reasoning Backdoors, Agent Eval Blindness, EgoNav, OmniRoam | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第十二期_en.md) |
 | **No.011** | 2026-03-27 | **Ultra-long Context**, S-Path-RAG, Institutional Alignment, OAP, LRM Online Rewards, Streaming Multi-Shot, Log Compression, Pricing Reversal | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第十一期_en.md) |
 | **No.010** | 2026-03-20 | **Topology in Gen**, Loc3R-VLM, RARRL Resource-Aware, CubiD, Omnilingual MT | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第十期_en.md) |
 | **No.009** | 2026-03-12 | **InternVL-U Unified Multimodal**, MM-Zero Self-Evolution, Spatial-TTT, CoT-Control | [![Read Report](https://img.shields.io/badge/Read-Report-FF9F43?style=for-the-badge)](./2026/第九期_en.md) |
