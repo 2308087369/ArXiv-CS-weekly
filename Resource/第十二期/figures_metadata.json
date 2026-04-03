@@ -1,0 +1,394 @@
+{
+  "Self-Routing": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Self-Routing_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 2,
+        "output_path": "Resource\\第十二期\\Self-Routing_Figure1.png",
+        "caption_snippet": "Figure 1: Learned routing vs. Self-Routing. Self-Routing replaces the learned projection with a direct hidden-state readout while leaving the rest of the MoE top-k dispatch un- changed."
+      },
+      {
+        "id": "Self-Routing_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 5,
+        "output_path": "Resource\\第十二期\\Self-Routing_Figure3.png",
+        "caption_snippet": "Figure 3: Layer-by-expert routing fractions. Each row is a layer and each column is an expert. Hotter colors indicate a larger fraction of routed tokens. Self-Routing exhibits the most even allocation pattern after the earliest layers, while the learned router and fixed random projection show stronger expert concentration and more inactive experts."
+      },
+      {
+        "id": "Self-Routing_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 6,
+        "output_path": "Resource\\第十二期\\Self-Routing_Figure2.png",
+        "caption_snippet": "Figure 2 shows that Self-Routing yields consistently higher expert-utilization entropy than both the learned router and the fixed random projection across most layers. Averaged over all 12 MoE layers, normalized entropy increases from 0.617 for the learned router to 0.648 for fixed random projection and 0.724 for Self-Routing. Relative to the learned router, this is a gain of about 17% for Self-Routing. The strongest imbalance appears in the earliest layers for all three methods: the first two l..."
+      },
+      {
+        "id": "Self-Routing_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 7,
+        "output_path": "Resource\\第十二期\\Self-Routing_Figure4.png",
+        "caption_snippet": "Figure 4 summarizes routing concentration with a single statistic: the maximum expert fraction in each layer. Lower values indicate that no single expert dominates the routing distribution. Self-Routing stays below both learned routing and fixed random projection in most layers, again showing a more even distribution of traffic. Averaged across layers, the largest expert receives 45.3% of routed tokens for the learned router, 44.9% for fixed random projection, and 37.7% for Self-Routing. Taken t..."
+      }
+    ]
+  },
+  "Optimizer-Aware-Data-Selection": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Optimizer-Aware-Data-Selection_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 10,
+        "output_path": "Resource\\第十二期\\Optimizer-Aware-Data-Selection_Figure1.png",
+        "caption_snippet": "Figure 1: TyDiQA performance (F1) as a function of the training data ratio."
+      },
+      {
+        "id": "Optimizer-Aware-Data-Selection_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 10,
+        "output_path": "Resource\\第十二期\\Optimizer-Aware-Data-Selection_Figure2.png",
+        "caption_snippet": "Figure 2: Preliminary ablation (single seed) used to prune the design space of our proposed framework."
+      }
+    ]
+  },
+  "Thinking-Wrong-in-Silence": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 3,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure1.png",
+        "caption_snippet": "Figure 1 illustrates the THOUGHTSTEER attack pipeline."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 6,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure2.png",
+        "caption_snippet": "Figure 2: (a) Attack effectiveness across architectures and scales: CA (blue) and ASR (red) bars; all configurations achieve ≥95% ASR with negligible CA degradation. (b) OOD transfer: the learned φ generalizes to unseen math benchmarks without retraining, at both 1B and 3B scale. (c) Clean fine-tuning survival heatmap: ASR after 25 epochs across learning rate × weight decay; the backdoor persists at standard learning rates. Full tables in Appendix A."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 7,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure3.png",
+        "caption_snippet": "Figure 3: (a) Active defense evaluation on COCONUT (124M): all five defenses fail, each for a specific mechanistic reason. (b) Three-tier detection hierarchy on SimCoT-3B: unsupervised methods (no trigger knowledge) are near-chance; population-contrast methods (SVD, SAE, AC with both clean+triggered samples) succeed at trajectory level but have step-level blind spots; supervised probes achieve AUC=1.0 (Proposition 1). Details in §5.4 and Appendices C– D."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 9,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure4.png",
+        "caption_snippet": "Figure 4: Mechanistic anatomy: (a) NC collapse onto wrong-answer ETF vertex. (b) Layer- wise divergence at layer 8/10. (c) Individual vectors predict the correct answer, yet the output is wrong. Appendix N."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 13,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure5.png",
+        "caption_snippet": "Figure 5: NC geometry progression: (a) clean (NC1=647K), (b) partial attack (NC1=196), (c) full attack (NC1=56)."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 13,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure6.png",
+        "caption_snippet": "Figure 6: PCA of step-1 latent vectors (ProntoQA, 10% poison). Clean and triggered inputs are linearly separable (probe AUC=1.0)."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 17,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure7.png",
+        "caption_snippet": "Figure 7: Per-step PCA (ProntoQA). Separation present from step 1 onward."
+      },
+      {
+        "id": "Thinking-Wrong-in-Silence_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 20,
+        "output_path": "Resource\\第十二期\\Thinking-Wrong-in-Silence_Figure8.png",
+        "caption_snippet": "Figure 8: Per-step logit lens (ProsQA). Triggered vectors predict the correct entity (+37–43 log-odds) yet the output is 100% wrong."
+      }
+    ]
+  },
+  "EgoNav": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "EgoNav_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 1,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig1.png",
+        "caption_snippet": "Fig. 1. EgoNav learns a navigation prior from human walking data: given past trajectory (purple) and a 360° visual context of the scene, a diffusion model generates a distribution of plausible future paths (red ribbons), with ribbon width indicating likelihood. The learned prior transfers directly to a Unitree G1 humanoid with zero robot data."
+      },
+      {
+        "id": "EgoNav_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 2,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig2.png",
+        "caption_snippet": "Fig. 2. Overview of the proposed method: A rolling buffer of 32 segmented RGB frames and cleaned depth frames are combined to construct a single visual memory (VM). The VM is encoded into a 64-dimensional embedding, fused with DINOv3 video features, and concatenated with 6D pose as input to the diffusion model. Then the future trajectories are denoised. All input and output of the prediction module are in the egocentric frame."
+      },
+      {
+        "id": "EgoNav_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 3,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig3.png",
+        "caption_snippet": "Fig. 3. Dataset: The dataset has a mix of weather, road, lighting, and traffic."
+      },
+      {
+        "id": "EgoNav_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 4,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig4.png",
+        "caption_snippet": "Fig. 4. Comparing depth frame with visual memory: A raw depth frame has only ∼90° of FOV and misses important scene information. The depth frame sees only the open space ahead and does not capture the stairs, the right turn path, or the wall to the left. Black regions are areas not yet observed."
+      },
+      {
+        "id": "EgoNav_Fig5",
+        "search_term": "Figure Fig5",
+        "page": 4,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig5.png",
+        "caption_snippet": "Fig. 5. Channels in Visual Memory: The visual memory integrates past frames into a single panorama. It consists of a depth, color, and intensity- encoded 8-class semantic channel. 4 out of 8 channels are shown in the figure."
+      },
+      {
+        "id": "EgoNav_Fig6",
+        "search_term": "Figure Fig6",
+        "page": 5,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig6.png",
+        "caption_snippet": "Fig. 6. Metrics overview: Collision-free score (CFS) uses selected seman- tics. All subsequent trajectories will be marked as collided; higher CFS and Smoothness are better, lower Best of N is better."
+      },
+      {
+        "id": "EgoNav_Fig7",
+        "search_term": "Figure Fig7",
+        "page": 6,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig7.png",
+        "caption_snippet": "Fig. 7. Hybrid generation step search: BoN, Collision, Smoothness score for different DDIM/DDPM step combinations. The optimal configuration is 5 DDIM + 5 DDPM. All sweeps are performed on the same checkpoint. Combination 0+0 is pure noise therefore omitted."
+      },
+      {
+        "id": "EgoNav_Fig8",
+        "search_term": "Figure Fig8",
+        "page": 7,
+        "output_path": "Resource\\第十二期\\EgoNav_Fig8.png",
+        "caption_snippet": "Fig. 8. Real-world deployment on Unitree G1. The humanoid navigates diverse unseen environments using EgoNav with zero robot training data. Insets show predicted trajectory distributions overlaid on the semantic point cloud. (A,B) Static indoor scenes with different clutter levels. (C) T-junction with multi-modal trajectory predictions. (D) The robot waits at a closed door and proceeds when it opens, demonstrating semantic understanding. (E) Navigating through a gap between pedestrians. (F) Avoi..."
+      }
+    ]
+  },
+  "Video-Models-Reason-Early": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Video-Models-Reason-Early_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 2,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig1.png",
+        "caption_snippet": "Fig. 1: Video diffusion models plan early. Decoded intermediate ˆx0 predictions reveal that the model commits to a trajectory within the first few denoising steps (green box); later steps refine visual details but rarely alter the path (blue box)."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 3,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig2.png",
+        "caption_snippet": "Fig. 2: Overview of ChEaP. (Left) Early Planning Beam Search scores early plans from partially denoised predictions and selects the most promising candidates for full generation. (Right) Chaining reconditions on the last frame of successful traces to extend reasoning beyond the single-generation horizon."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 6,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig3.png",
+        "caption_snippet": "Fig. 3: Early plans stay consistent. (Left) Across multiple settings, the early trajectories emerging from decoded ˆx0 predictions at step 5 match the final trajectory. (Right) Mean trajectory convergence throughout the denoising process. Step 5 already reaches 93%, i.e. trajectories stay converged (over 163 4×4 mazes)."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 7,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig4.png",
+        "caption_snippet": "Fig. 4: Stepwise refinement. Mean pairwise trajectory IoU among K=5 re-noised completions at each step τ, across grid sizes 4–10. Even at τ=1, branch trajectories are far more similar to each other than trajectories from different seeds (dashed line), indicating that the route is largely encoded in the initial noise sample."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig5",
+        "search_term": "Figure Fig5",
+        "page": 9,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig5.png",
+        "caption_snippet": "Fig. 5: EPBS finds solutions much more efficiently than best-of-N. Accuracy vs Function Evaluations (NFEs) on Frozen Lake mazes across four sizes with Wan2.2-14B. EPBS consistently dominates standard best-of-N, with large gains on larger mazes."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig6",
+        "search_term": "Figure Fig6",
+        "page": 11,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig6.png",
+        "caption_snippet": "Fig. 6: EPBS fails beyond the single-generation horizon. While short paths are solved reliably, success drops sharply for trajectories longer than 10–12 steps. This breakdown persists even with strong seed selection, indicating a limitation in executing long plans rather than selecting them."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig7",
+        "search_term": "Figure Fig7",
+        "page": 12,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig7.png",
+        "caption_snippet": "Fig. 7: Chaining extends reasoning beyond the single-generation horizon. Wan 2.2 success rates on Frozen Lake mazes by solution length. Chaining provides the most benefit on mazes where the solution length exceeds the generation window (≥10 steps). The largest gain is on long mazes, from 7% to 67% success rate with ChEaP."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig8",
+        "search_term": "Figure Fig8",
+        "page": 13,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig8.png",
+        "caption_snippet": "Fig. 8: Failure mode comparison. Wan2.2 (left) goes from horizon-limited to constraint-dominated as maze size increases. HunyuanVideo (right) is constraint- dominated at all sizes, suggesting that step distillation degrades structural adherence independently of horizon."
+      },
+      {
+        "id": "Video-Models-Reason-Early_Fig9",
+        "search_term": "Figure Fig9",
+        "page": 14,
+        "output_path": "Resource\\第十二期\\Video-Models-Reason-Early_Fig9.png",
+        "caption_snippet": "Fig. 9: The model “cheats” on hard mazes. When the trajectory is too long to complete within the generation window, the model sacrifices structural adherence to fulfill the prompt. Top: the gift teleports from the far corner to an adjacent cell, allowing the agent to “solve” the maze without traversing the full path. Bottom: a second agent spawns near the goal and reaches it, while the original agent remains stranded."
+      }
+    ]
+  },
+  "OmniRoam": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "OmniRoam_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 1,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig1.png",
+        "caption_snippet": "Fig. 1. Two-stage Long-horizon Panoramic Scene Wandering. Starting from an input frame/video, OmniRoam first produces a coarse 480×960 preview with accelerated playback speed to quickly traverse the scene along the user-specified camera trajectory (left). It then upscales this video to a high-quality 720×1440 resolution (middle), jointly improving spatial details and temporal coherence, creating an immersive exploration experience. The resulting wandering path is visually represented as a series..."
+      },
+      {
+        "id": "OmniRoam_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 4,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig2.png",
+        "caption_snippet": "Fig. 2. OmniRoam Pipeline consists of (1) a preview stage that takes an input image/video and a user-specified camera trajectory, and generates an accelerated, mid-resolution panoramic video via decomposed trajectory conditioning (flow + scale), and (2) a refine stage that performs scale alignment and segment-wise diffusion to produce the final high-resolution long-horizon panoramic video. The framework further supports real-time autoregressive preview and downstream 3D reconstruction. Both mode..."
+      },
+      {
+        "id": "OmniRoam_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 4,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig3.png",
+        "caption_snippet": "Fig. 3. Dataset Visualization. We curate a hybrid training set containing real-world handheld panoramic videos captured across diverse scenes (top) and synthetic panoramic sequences rendered from 3DGS scenes with syn- thesized wide-ranging, physically feasible trajectories (bottom)."
+      },
+      {
+        "id": "OmniRoam_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 6,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig4.png",
+        "caption_snippet": "Fig. 4. Qualitative Comparisons. Our method generates panoramic videos that closely follow the input trajectory and preserve sharper details from the input images, while prior methods often produce blurry artifacts or semantically inconsistent content. Zoomed-in perspective crops are shown in the red inset."
+      },
+      {
+        "id": "OmniRoam_Fig5",
+        "search_term": "Figure Fig5",
+        "page": 7,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig5.png",
+        "caption_snippet": "Fig. 5. CLIP Similarity over Loop Trajectories. We show temporal CLIP similarity to the first frame under loop trajectories for long-horizon generation (641 frames). Our method shows the expected trend: similarity decreases as the camera moves away and recovers as the trajectory closes the loop; whereas (a) the autoregressive variant exhibits a largely monotonic decline (drift from the initial view) and (b) the perspective-video variant shows weaker recovery with noticeable structural degradatio..."
+      },
+      {
+        "id": "OmniRoam_Fig6",
+        "search_term": "Figure Fig6",
+        "page": 9,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig6.png",
+        "caption_snippet": "Fig. 6. Additional Qualitative Comparisons. Our method maintains better geometric stability and finer textures during scene exploration."
+      },
+      {
+        "id": "OmniRoam_Fig7",
+        "search_term": "Figure Fig7",
+        "page": 9,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig7.png",
+        "caption_snippet": "Fig. 7. Results from Real-Time Previewer-based Two-Stage Generation. Videos are generated in real time at 480p and subsequently refined to 720p."
+      },
+      {
+        "id": "OmniRoam_Fig8",
+        "search_term": "Figure Fig8",
+        "page": 10,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig8.png",
+        "caption_snippet": "Fig. 8. Long Video Generation with Loop Trajectory. We present 641-frame generated video sequences that traverse the scene in a closed loop, where the last frames closely resemble the initial frame, demonstrating strong long-term consistency."
+      },
+      {
+        "id": "OmniRoam_Fig9",
+        "search_term": "Figure Fig9",
+        "page": 10,
+        "output_path": "Resource\\第十二期\\OmniRoam_Fig9.png",
+        "caption_snippet": "Fig. 9. Visualization of Real-time Previewer and 3DGS. (a) demonstrates trajectory-following panoramic wandering with our real-time previewer. (b) shows the reconstructed 3D Gaussian splatting results and corresponding panoramic samples."
+      }
+    ]
+  },
+  "Deep-Networks-Favor-Simple-Data": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig1",
+        "search_term": "Figure Fig1",
+        "page": 2,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig1.png",
+        "caption_snippet": "Fig. 1: Density rankings on the CIFAR-10 test set. For each model, CIFAR- 10 test images are sorted by estimated density (high →low) and visualized through stratified samples along this ranking. Top: base models trained on the full training set. Middle (LDT10): models retrained on the lowest-density training subset (the lowest 10% of training samples). Bottom (LDT1): models trained on a single lowest-density example. Across all settings the ranking consistently progresses from simple to com- ple..."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 8,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Figure2.png",
+        "caption_snippet": "Figure 2 summarizes the full-dataset ranking agreement. Read each entry as fol- lows: pick a row and a column; the number in their intersection is the Spearman correlation between the two induced rankings. Thus, to ask whether two mod- els sort CIFAR-10 in the same way, inspect their intersection. To ask whether a model follows an external notion of simplicity, inspect its intersection with JPEG or gradient complexity. Several facts are immediate from Fig. 2. First, excluding the DINOv2 row / co..."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig2",
+        "search_term": "Figure Fig2",
+        "page": 9,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig2.png",
+        "caption_snippet": "Fig. 2: Spearman correlations between rankings induced by the base models and by external complexity proxies. The lower triangle is shown. Positive values mean two methods rank CIFAR-10 images in a similar rank from simple / high-density to complex / low-density. The row / column labeled “Glow+JPEG complexity” is the JPEG-based correction inspired by Serra et al. [18]."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig3",
+        "search_term": "Figure Fig3",
+        "page": 10,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig3.png",
+        "caption_snippet": "Fig. 3: Spearman correlations between rankings induced by different training settings within each architecture family. Base uses the full CIFAR-10 training set, LDT10 uses only the lowest-density 10% of the training set, LDT1 uses only the single lowest-density image, and UT is the untrained network. Each LDT setting is shown at two widely separated checkpoints to reduce the chance of reporting a transient undertrained state."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 10,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Figure3.png",
+        "caption_snippet": "Figure 3 is the key quantitative test of whether the ranking is merely inherited from the full dataset or actively regenerated by training. Each panel compares training settings within one architecture family. The first row / column of each panel compares the untrained model (UT) to trained checkpoints. The remaining entries compare Base, LDT10, and LDT1 rankings. The left panel of Fig. 3 shows that iGPT is remarkably stable. Base correlates 0.80 and 0.94 with the two LDT10 checkpoints, and 0.96..."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig4",
+        "search_term": "Figure Fig4",
+        "page": 11,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig4.png",
+        "caption_snippet": "Fig. 4: PixelCNN++ after training on a single lowest-density image. Unlike iGPT and Glow, the single-sample PixelCNN++ ranking no longer follows the global simplicity ranking from the base model. The failure is already visible quantitatively in the middle panel of Fig. 3 and is shown qualitatively here."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig5",
+        "search_term": "Figure Fig5",
+        "page": 11,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig5.png",
+        "caption_snippet": "Fig. 5: DINOv2 on bicubically upsampled CIFAR-10. Compared with the other models, the density bins display a much weaker monotone progression from simple to complex. This is consistent with the weak DINOv2 row / column in Fig. 2."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig6",
+        "search_term": "Figure Fig6",
+        "page": 12,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig6.png",
+        "caption_snippet": "Fig. 6: Density rankings on the ImageNet eagle subset. Left: qualitative rankings pro- duced by Diffusion, I-JEPA, and DINOv2 show a consistent simple-to-complex ranking of images. Right: Spearman rank correlations confirm substantial agreement between the rankings produced by different models."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig7",
+        "search_term": "Figure Fig7",
+        "page": 12,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig7.png",
+        "caption_snippet": "Fig. 7: Glow likelihood decomposition on CIFAR-10, with samples sorted by log p(x) in descending order."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Fig8",
+        "search_term": "Figure Fig8",
+        "page": 12,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Fig8.png",
+        "caption_snippet": "Fig. 8: A tiny Gaussian perturbation de- stroys the classical OOD advantage of SVHN under Glow."
+      },
+      {
+        "id": "Deep-Networks-Favor-Simple-Data_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 13,
+        "output_path": "Resource\\第十二期\\Deep-Networks-Favor-Simple-Data_Figure8.png",
+        "caption_snippet": "Figure 8 examines the robustness of the OOD likelihood ranking using a simple perturbation experiment. Glow trained on CIFAR-10 assigns higher likelihood to SVHN test images, reproducing the well-known phenomenon that models can prefer simpler out-of-distribution data. However, adding a very small Gaussian perturbation to SVHN (σ2 = 0.0064) completely removes this advantage and shifts the noisy SVHN distribution below CIFAR-10. To place this observation in context, recall that Nalisnick et al. [..."
+      }
+    ]
+  }
+}
