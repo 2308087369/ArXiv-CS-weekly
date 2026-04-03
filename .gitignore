@@ -1,0 +1,13 @@
+# 忽略根目录下的所有内容
+/*
+
+# 允许同步的指定目录
+!/2026/
+!/Resource/
+
+# 允许同步的指定文件
+!/readme.md
+!/readme_en.md
+
+# 建议也将 .gitignore 自身加入版本控制，以便在 GitHub 上同步该规则
+!/.gitignore
