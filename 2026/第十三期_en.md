@@ -33,7 +33,6 @@ Research in the first week of April 2026 reveals that academia is transforming m
 ### 2.1 Knowledge Packs: KV Cache Injection and State Space Steering
 
 > Knowledge Packs: Zero-Token Knowledge Delivery via KV Cache Injection
-> Source: April 2026 Draft
 
 - **Motivation**: In large-scale Retrieval-Augmented Generation (RAG), a persistent bottleneck is that the forward-pass token cost of retrieved content grows linearly with the number of facts. This not only consumes massive computational power but also increases latency due to the accumulation of long historical contexts.
 - **Methodology**: The study leverages the "KV-Prefix Equivalence" principle in the Transformer architecture. By performing offline forward passes on massive facts, it extracts and serializes their KV caches into "Knowledge Packs." During inference, by directly injecting pre-computed states into the inference engine, the query sequence interacts directly with the facts' hidden states. It also reveals the second-order effect of "Value-Space Steering," changing generation styles via vector arithmetic on cache Values.
@@ -43,7 +42,6 @@ Research in the first week of April 2026 reveals that academia is transforming m
 ### 2.2 StableTTA: Mathematical Breakthrough in Aggregation Strategy Optimization
 
 > StableTTA: Training-Free Test-Time Adaptation that Improves Model Accuracy on ImageNet1K to 96%
-> Source: April 2026 Draft
 
 - **Motivation**: In computer vision, improving performance on ImageNet-1K usually relies on adding data or scaling up parameters. In Test-Time Adaptation (TTA), different aggregation strategies (like hard voting, soft voting, and logit averaging) often produce conflicting and mutually exclusive predictions when handling sparse logit spaces.
 - **Methodology**: The study systematically identifies and proves that aggregation conflicts arise from the nonlinear and non-bijective nature of the Softmax and indicator functions. It proposes a training-free hybrid method that introduces stability constraints during image preprocessing and enforces strategy alignment during logit post-processing, eliminating instability.
@@ -89,7 +87,7 @@ Research in the first week of April 2026 reveals that academia is transforming m
 ### 3.3 AgentHazard: Security Defenses for Computer-Use Agents
 
 > AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents
-> Source: April 2026 Draft
+
 
 - **Motivation**: As agents gain capabilities for persistent operations and environment management, security risks have shifted from outputting "harmful speech" to "dynamic execution." Complex execution trajectories mean that combinations of seemingly legal single-step operations could lead to severe security vulnerabilities.
 - **Methodology**: It proposes an attack design philosophy of "locally legal, globally harmful," constructing a dynamic risk benchmark with 2,653 instances across 10 risk categories and 10 attack strategies. It focuses on testing trajectory-dependent vulnerabilities like persistent malware establishment and sensitive information exfiltration.
@@ -119,7 +117,7 @@ Research in the first week of April 2026 reveals that academia is transforming m
 ### 4.2 V-Reflection: Deep Correction via Visual Reflection Mechanism
 
 > V-Reflection: Transforming MLLMs from Passive Observers to Active Interrogators
-> Source: April 2026 Draft
+
 
 - **Motivation**: Multimodal Large Language Models (MLLMs) often hallucinate when executing fine-grained perception tasks because they cannot re-examine visual inputs based on their reasoning state.
 - **Methodology**: It proposes a "think before you look" dynamic reflection mechanism, transforming model latent states into Dynamic Probes. Through a two-stage distillation strategy (explicit spatial anchoring BCM and visual latent space distillation DAC), spatial parsing capabilities are internalized, enabling the model to autonomously locate evidence in the global visual graph based on its thought trajectory.
@@ -129,7 +127,7 @@ Research in the first week of April 2026 reveals that academia is transforming m
 ### 4.3 StoryBlender: 3D Engine-Driven Narrative Consistency
 
 > StoryBlender: Inter-Shot Consistent and Editable 3D Storyboard with Spatial-temporal Dynamics
-> Source: April 2026 Draft
+
 
 - **Motivation**: In visual video or image synthesis, cross-shot character identity drift and geometric consistency have always been technical bottlenecks.
 - **Methodology**: It reframes storyboard generation as a hierarchical multi-agent planning process within a 3D engine. It constructs a four-tier "Continuity Memory Graph" (including storyboard outlines and asset tables) to decouple global assets (identity) from local variables (action, lighting), and provides a feedback loop for self-correction via engine physical verification.
