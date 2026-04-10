@@ -1,0 +1,213 @@
+{
+  "InfoSeeker": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "InfoSeeker_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure1.png",
+        "caption_snippet": "Figure 1: Performance results on BrowseComp-zh (avg) and WideSearch (avg/max)."
+      },
+      {
+        "id": "InfoSeeker_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 3,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure2.png",
+        "caption_snippet": "Figure 2: Overview of the InfoSeeker framework. The system features a three-tier topology consisting of a strategic Host, domain-specific Managers, and tool-executing Workers. By enforcing hierarchical context isolation, high-level directives (qt) are decomposed into parallelisable subtasks (qk t ) by Managers and executed by Workers. Final results are aggregated into concise summaries (yt) to support long-horizon planning while preventing context exhaustion at the strategic level."
+      },
+      {
+        "id": "InfoSeeker_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 8,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure3.png",
+        "caption_snippet": "Figure 3: Time efficiency comparison. InfoSeeker achieves a more than 2× reduction in inference time, enabled by its efficient parallelism design."
+      },
+      {
+        "id": "InfoSeeker_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 9,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure4.png",
+        "caption_snippet": "Figure 4: The Impact of Worker Pool Size. End-to-end inference time vs. worker-pool size. Larger pools reduce latency by enabling concurrent execution of weakly coupled subtasks."
+      },
+      {
+        "id": "InfoSeeker_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 15,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure5.png",
+        "caption_snippet": "Figure 5: Execution trace: Michelin three-star restaurant synthesis."
+      },
+      {
+        "id": "InfoSeeker_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 19,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure6.png",
+        "caption_snippet": "Figure 6 presents a historical riddle reasoning example from BrowseComp-zh that showcases multi-manager collabora- tion between search and browser agents."
+      },
+      {
+        "id": "InfoSeeker_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 19,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure7.png",
+        "caption_snippet": "Figure 7 illustrates a failure case from BrowseComp-zh on disease name identification, where an answer-type mismatch causes the system to return a plausible disease class instead of the required canonical entity. This error arises from misinterpreting subtype cues under uncertainty, revealing a limitation in entity-level constraint handling."
+      },
+      {
+        "id": "InfoSeeker_Figure8",
+        "search_term": "Figure Figure8",
+        "page": 19,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure8.png",
+        "caption_snippet": "Figure 8 illustrates a failure case from WideSearch on comprehensive data aggregation, where context length constraints compel the system to return a representative sample instead of the requested exhaustive list. This error arises from a token overflow during the processing of high-volume retrieval results, revealing a fundamental scalability bottleneck in large-scale information synthesis."
+      },
+      {
+        "id": "InfoSeeker_Figure9",
+        "search_term": "Figure Figure9",
+        "page": 20,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure9.png",
+        "caption_snippet": "Figure 9: The system prompt of Host."
+      },
+      {
+        "id": "InfoSeeker_Figure10",
+        "search_term": "Figure Figure10",
+        "page": 21,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure10.png",
+        "caption_snippet": "Figure 10: The Search Manager Prompt used in the framework."
+      },
+      {
+        "id": "InfoSeeker_Figure11",
+        "search_term": "Figure Figure11",
+        "page": 23,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure11.png",
+        "caption_snippet": "Figure 11: The Search Manager Prompt used in the framework."
+      },
+      {
+        "id": "InfoSeeker_Figure12",
+        "search_term": "Figure Figure12",
+        "page": 24,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure12.png",
+        "caption_snippet": "Figure 12: The Browser Manager Prompt (Part 1) describing workflow and validation logic."
+      },
+      {
+        "id": "InfoSeeker_Figure13",
+        "search_term": "Figure Figure13",
+        "page": 25,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure13.png",
+        "caption_snippet": "Figure 13: The Browser Manager Prompt (Part 2) detailing error handling and retry strategies."
+      },
+      {
+        "id": "InfoSeeker_Figure14",
+        "search_term": "Figure Figure14",
+        "page": 26,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure14.png",
+        "caption_snippet": "Figure 14: The Filesystem Manager Prompt handles local file operations and media analysis."
+      },
+      {
+        "id": "InfoSeeker_Figure15",
+        "search_term": "Figure Figure15",
+        "page": 27,
+        "output_path": "Resource\\第十三期\\InfoSeeker_Figure15.png",
+        "caption_snippet": "Figure 15: The Code Agent Prompt focuses on execution, file manipulation, and computing results."
+      }
+    ]
+  },
+  "MARL-GPT": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "MARL-GPT_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 1,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure1.png",
+        "caption_snippet": "Figure 1: Spider plot demonstrating the relative performance of all evaluated approaches on three different environments – SMACv2, Google Research Football (GRF) and POGEMA."
+      },
+      {
+        "id": "MARL-GPT_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 2,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure2.png",
+        "caption_snippet": "Figure 2: The general pipeline begins with training expert policies across diverse MARL environments using domain-appropriate algorithms (e.g., IPPO, RHCR). These policies generate large-scale datasets of observation-action(-reward) trajectories. MARL- GPT is then trained on the aggregated data using cross-entropy loss to predict expert actions and Q-values, enabling a single model to generalize across environments, tasks, and coordination regimes."
+      },
+      {
+        "id": "MARL-GPT_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 4,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure3.png",
+        "caption_snippet": "Figure 3: Illustration of the proposed encoding scheme for multi-agent systems, demonstrated using an example from the SMACv2 environment. Each agent receives a structured, vectorized observation containing information about itself, its allies, and nearby enemies. For each observed agent, the input features (such as position, health, etc.) are enriched with additional embeddings: (a) a positional encoding over the feature dimensions, (b) a global timestep encoding, (c) an agent identity index, a..."
+      },
+      {
+        "id": "MARL-GPT_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 7,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure4.png",
+        "caption_snippet": "Figure 4: Online fine-tuning results: (a) Battle won on the terran 5vs5 task (SMACv2). (b–d) Comparison of fine-tuned MARL-GPT and an expert model trained from scratch on GRF."
+      },
+      {
+        "id": "MARL-GPT_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 11,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure5.png",
+        "caption_snippet": "Figure 5: Modular and reconfigurable maze environment composed of standardized floor and wall units."
+      },
+      {
+        "id": "MARL-GPT_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 11,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure6.png",
+        "caption_snippet": "Figure 6: Waveshare JetBot robotic agent used for maze navi- gation experiments."
+      },
+      {
+        "id": "MARL-GPT_Figure7",
+        "search_term": "Figure Figure7",
+        "page": 12,
+        "output_path": "Resource\\第十三期\\MARL-GPT_Figure7.png",
+        "caption_snippet": "Figure 7: Real-world execution of a scenario based on maze scenario with 3 robots. Left: simulated environment in POGEMA. Right: corresponding physical setup used for real- world deployment."
+      }
+    ]
+  },
+  "Claw-Eval": {
+    "pdf_path": "",
+    "figures": [
+      {
+        "id": "Claw-Eval_Figure1",
+        "search_term": "Figure Figure1",
+        "page": 4,
+        "output_path": "Resource\\第十三期\\Claw-Eval_Figure1.png",
+        "caption_snippet": "Figure 1: Claw-Eval architecture. The framework operates across three temporal phases (Setup, Execution, Judge) and three spatial layers (Host Machine, Isolation Environment, Mock Services). During execution, the agent works within the isolation environment, interacting with workspace files, mock services, and system-layer tools. A temporal firewall separates execution from grading: the grader consumes three independent evidence channels (execution traces, environment snapshots, and server-side ..."
+      },
+      {
+        "id": "Claw-Eval_Figure2",
+        "search_term": "Figure Figure2",
+        "page": 9,
+        "output_path": "Resource\\第十三期\\Claw-Eval_Figure2.png",
+        "caption_snippet": "Figure 2: Pass^3 rate by difficulty level. All models degrade from Easy to Hard."
+      },
+      {
+        "id": "Claw-Eval_Figure3",
+        "search_term": "Figure Figure3",
+        "page": 10,
+        "output_path": "Resource\\第十三期\\Claw-Eval_Figure3.png",
+        "caption_snippet": "Figure 3: Comparison of a vanilla LLM judge against the hybrid grading pipeline across five models. The vanilla judge receives the full conversation transcript and complete grader source code; only server-side audit logs and post-execution environment snapshots are withheld."
+      },
+      {
+        "id": "Claw-Eval_Figure4",
+        "search_term": "Figure Figure4",
+        "page": 10,
+        "output_path": "Resource\\第十三期\\Claw-Eval_Figure4.png",
+        "caption_snippet": "Figure 4: Effect of error injection on agent performance. Three models are evaluated on General tasks at error rates 0.0–0.6. Pass@3 remains largely stable while Pass^3 drops sharply."
+      },
+      {
+        "id": "Claw-Eval_Figure5",
+        "search_term": "Figure Figure5",
+        "page": 11,
+        "output_path": "Resource\\第十三期\\Claw-Eval_Figure5.png",
+        "caption_snippet": "Figure 5: Multi-turn dialogue analysis across 13 models. A simulated user progressively reveals information over up to 8 rounds; the agent must ask clarifying questions before composing its answer."
+      },
+      {
+        "id": "Claw-Eval_Figure6",
+        "search_term": "Figure Figure6",
+        "page": 12,
+        "output_path": "Resource\\第十三期\\Claw-Eval_Figure6.png",
+        "caption_snippet": "Figure 6: Pass@3 (dashed) vs. Pass^3 (solid) across multimodal domains. The ratio r indi- cates the consistency conversion rate."
+      }
+    ]
+  }
+}

@@ -23,6 +23,7 @@
 
 | 期数 | 发布日期 | 核心主题 & 关键词 | 阅读入口 |
 | :---: | :---: | :--- | :---: |
+| **No.013** | 2026-04-10 | **层级化并行代理**、知识交付、聚合策略优化、轨迹感知分级、跨领域MARL、视觉动态反射、3D分镜生成 | [![阅读报告](https://img.shields.io/badge/阅读报告-FF9F43?style=for-the-badge)](./2026/第十三期.md) |
 | **No.012** | 2026-04-03 | **无参数专家路由**、优化器感知数据选择、潜在推理后门、代理评估盲区、EgoNav、早期计划承诺、OmniRoam、分布外异常 | [![阅读报告](https://img.shields.io/badge/阅读报告-FF9F43?style=for-the-badge)](./2026/第十二期.md) |
 | **No.011** | 2026-03-27 | **超长上下文记忆**、S-Path-RAG、制度对齐、OAP授权、LRM在线奖励、流式多镜头、日志压缩、成本反转 | [![阅读报告](https://img.shields.io/badge/阅读报告-FF9F43?style=for-the-badge)](./2026/第十一期.md) |
 | **No.010** | 2026-03-20 | **组合泛化拓扑**、Loc3R-VLM、RARRL资源感知、CubiD离散扩散、Omnilingual MT多语种 | [![阅读报告](https://img.shields.io/badge/阅读报告-FF9F43?style=for-the-badge)](./2026/第十期.md) |
